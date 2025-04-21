@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Estedad';
+    font-display: swap;
+    src: url('Estedad-FD-Thin.woff2') format("woff2");
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Estedad';
+    font-display: swap;
+    src: url('Estedad-FD-Light.woff2') format("woff2");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Estedad';
+    font-display: swap;
+    src: url('Estedad-FD-Bold.woff2') format("woff2");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Estedad';
+    font-display: swap;
+    src: url('Estedad-FD-Black.woff2') format("woff2");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Estedad';
+    font-display: swap;
+    src: url('Estedad-FD-Medium.woff2') format("woff2");
+    font-weight: 500;
+    font-style: normal
+}
+
+.font-Estedad{
+    font-family: 'Estedad' !important;
+}

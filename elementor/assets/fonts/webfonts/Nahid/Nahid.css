@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Nahid';
+    font-display: swap;
+    src: url('Nahid-FD.woff2') format("woff2");
+    font-weight: 400
+}
+
+.font-Nahid {
+    font-family: 'Nahid' !important;
+}

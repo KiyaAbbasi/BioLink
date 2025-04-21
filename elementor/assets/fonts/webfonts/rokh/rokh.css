@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-Black.woff2') format('woff2'),
+        url('RokhFaNum-Black.woff') format('woff'),
+        url('RokhFaNum-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-Bold.woff2') format('woff2'),
+        url('RokhFaNum-Bold.woff') format('woff'),
+        url('RokhFaNum-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-ExtraBold.woff2') format('woff2'),
+        url('RokhFaNum-ExtraBold.woff') format('woff'),
+        url('RokhFaNum-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-ExtraLight.woff2') format('woff2'),
+        url('RokhFaNum-ExtraLight.woff') format('woff'),
+        url('RokhFaNum-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-HairLine.woff2') format('woff2'),
+        url('RokhFaNum-HairLine.woff') format('woff'),
+        url('RokhFaNum-HairLine.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-Light.woff2') format('woff2'),
+        url('RokhFaNum-Light.woff') format('woff'),
+        url('RokhFaNum-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-Medium.woff2') format('woff2'),
+        url('RokhFaNum-Medium.woff') format('woff'),
+        url('RokhFaNum-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-Normal.woff2') format('woff2'),
+        url('RokhFaNum-Normal.woff') format('woff'),
+        url('RokhFaNum-Normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-Regular.woff2') format('woff2'),
+        url('RokhFaNum-Regular.woff') format('woff'),
+        url('RokhFaNum-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-SemiBold.woff2') format('woff2'),
+        url('RokhFaNum-SemiBold.woff') format('woff'),
+        url('RokhFaNum-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-Thin.woff2') format('woff2'),
+        url('RokhFaNum-Thin.woff') format('woff'),
+        url('RokhFaNum-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokh';
+    src: url('RokhFaNum-UltraBold.woff2') format('woff2'),
+        url('RokhFaNum-UltraBold.woff') format('woff'),
+        url('RokhFaNum-UltraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.font-rokh {
+    font-family: 'Rokh' !important;
+}

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Pinar';
+    src: url("Pinar-FD-300.ttf") format("truetype"),
+        url("Pinar-FD-300.woff2") format("woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Pinar';
+    src: url("Pinar-FD-400.ttf") format("truetype"),
+        url("Pinar-FD-400.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Pinar';
+    src: url("Pinar-FD-500.ttf") format("truetype"),
+        url("Pinar-FD-500.woff2") format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Pinar';
+    src: url("Pinar-FD-600.ttf") format("truetype"),
+        url("Pinar-FD-600.woff2") format("woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Pinar';
+    src: url("Pinar-FD-700.ttf") format("truetype"),
+        url("Pinar-FD-700.woff2") format("woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Pinar';
+    src: url("Pinar-FD-800.ttf") format("truetype"),
+        url("Pinar-FD-800.woff2") format("woff2");
+    font-weight: 800;
+}
+
+
+@font-face {
+    font-family: 'Pinar';
+    src: url("Pinar-FD-900.ttf") format("truetype"),
+        url("Pinar-FD-900.woff2") format("woff2");
+    font-weight: 900;
+}
+
+.font-pinar {
+    font-family: 'Pinar' !important;
+}

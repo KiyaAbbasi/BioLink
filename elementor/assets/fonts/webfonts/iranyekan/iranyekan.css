@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Iranyekan';
+    src: url('iranyekan-100.woff') format('woff'),
+        url('iranyekan-100.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Iranyekan';
+    src: url('iranyekan-300.woff') format('woff'),
+        url('iranyekan-300.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Iranyekan';
+    src: url('iranyekan-400.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Iranyekan';
+    src: url('iranyekan-500.woff') format('woff'),
+        url('iranyekan-500.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Iranyekan';
+    src: url('iranyekan-700.woff') format('woff'),
+        url('iranyekan-700.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Iranyekan';
+    src: url('iranyekan-800.woff') format('woff'),
+        url('iranyekan-800.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Iranyekan';
+    src: url('iranyekan-900.woff') format('woff'),
+        url('iranyekan-900.ttf') format('truetype');
+    font-weight: 900;
+}
+
+.font-iranyekan {
+    font-family: 'Iranyekan' !important;
+}

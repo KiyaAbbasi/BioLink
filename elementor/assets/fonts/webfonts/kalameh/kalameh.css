@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-100.woff') format('woff'),
+        url('kalameh-100.woff2') format('woff2'),
+        url('kalameh-100.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-200.woff') format('woff'),
+        url('kalameh-200.woff2') format('woff2'),
+        url('kalameh-200.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-400.woff') format('woff'),
+        url('kalameh-400.woff2') format('woff2'),
+        url('kalameh-400.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-500.woff') format('woff'),
+        url('kalameh-500.woff2') format('woff2'),
+        url('kalameh-500.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-600.woff') format('woff'),
+        url('kalameh-600.woff2') format('woff2'),
+        url('kalameh-600.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-700.woff') format('woff'),
+        url('kalameh-700.woff2') format('woff2'),
+        url('kalameh-700.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-800.woff') format('woff'),
+        url('kalameh-800.woff2') format('woff2'),
+        url('kalameh-800.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'kalameh';
+    src: url('kalameh-900.woff') format('woff'),
+        url('kalameh-900.woff2') format('woff2'),
+        url('kalameh-900.ttf') format('truetype');
+    font-weight: 900;
+}
+
+.font-kalameh {
+    font-family: 'kalameh' !important;
+}

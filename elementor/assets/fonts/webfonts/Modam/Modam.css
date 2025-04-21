@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-100.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-200.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-400.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-500.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-600.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-700.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-800.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Modam';
+    src: url('Modam-900.ttf') format('truetype');
+    font-weight: 900;
+}
+
+.font-Modam {
+    font-family: 'Modam' !important;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Morabba';
+    src: url('Morabba.ttf') format('truetype');
+    font-weight: 400;
+}
+
+.font-Morabba {
+    font-family: 'Morabba' !important;
+}

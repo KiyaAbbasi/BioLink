@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Kara';
+    font-display: swap;
+    src: url('SGKara-Light.woff2') format("woff2");
+    font-weight: 300
+}
+
+@font-face {
+    font-family: 'Kara';
+    font-display: swap;
+    src: url('SGKara-Regular.woff2') format("woff2");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'Kara';
+    font-display: swap;
+    src: url('SGKara-SemiBold.woff2') format("woff2");
+    font-weight: 400
+}
+
+.font-Kara {
+    font-family: 'Kara' !important;
+}
