@@ -1,0 +1,3151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: بایو لینک\n"
+"POT-Creation-Date: 2024-08-01 17:50+0330\n"
+"PO-Revision-Date: 2024-08-01 17:50+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bio-link.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/includes/CMB2.php:199
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr "پیکربندی متاباکس برای داشتن یک پارامتر ID مورد نیاز است."
+
+#: admin/includes/CMB2.php:618
+msgid "Click to toggle"
+msgstr "برای جابجایی کلیک کنید"
+
+#: admin/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "لطفا دوباره تلاش کنید"
+
+#: admin/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr "فیلد oEmbed را حذف کنید"
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: admin/includes/CMB2_Ajax.php:189 admin/includes/helper-functions.php:107
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr "هیچ نتیجه oEmbed برای %1$s یافت نشد. مشاهده اطلاعات بیشتر در %2$s."
+
+#: admin/includes/CMB2_Base.php:423
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr "پارامتر فیلد \"%1$s\" به نفع پارامتر \"%2$s\" منسوخ شده است."
+
+#: admin/includes/CMB2_Base.php:427
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in favor "
+"of the \"%2$s\" parameter."
+msgstr ""
+"استفاده از پارامتر فیلد \"%1$s\" به عنوان پاسخ به تماس به نفع پارامتر \"%2$s\" "
+"منسوخ شده است."
+
+#: admin/includes/CMB2_Base.php:457
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+"%1$s با پارامتری فراخوانی شد که از نسخه %2$s <strong>منسوخ</strong> شده است! "
+"%3$s"
+
+#: admin/includes/CMB2_Base.php:459
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+"%1$s با پارامتری که از نسخه %2$s که جایگزینی در دسترس نیست <strong>منسوخ شده</"
+"strong> فراخوانی شد."
+
+#: admin/includes/CMB2_Base.php:492 admin/includes/CMB2_Hookup_Base.php:102
+#: admin/includes/CMB2_Options.php:247 admin/includes/CMB2_Options_Hookup.php:369
+#: admin/includes/types/CMB2_Type_Base.php:173
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr "دارایی %1$s نامعتبر: %2$s"
+
+#: admin/includes/CMB2_Base.php:510 admin/includes/types/CMB2_Type_Base.php:157
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr "روش %1$s نامعتبر است: %2$s"
+
+#: admin/includes/CMB2_Field.php:1443
+msgid "Add Group"
+msgstr "افزودن گروه"
+
+#: admin/includes/CMB2_Field.php:1444
+msgid "Remove Group"
+msgstr "حذف گروه"
+
+#: admin/includes/CMB2_Field.php:1476 admin/includes/CMB2_Field.php:1480
+#: elementor/widgets/bio_advanced_heading.php:221
+#: elementor/widgets/bio_advanced_heading.php:285
+#: elementor/widgets/bio_advanced_heading.php:393
+msgid "None"
+msgstr "هیچ یک"
+
+#: admin/includes/CMB2_Field.php:1594
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr "متأسفیم، این فیلد یک cmb_id مشخص نشده است."
+
+#: admin/includes/CMB2_Field_Display.php:453 admin/includes/CMB2_JS.php:242
+#: admin/includes/types/CMB2_Type_File_Base.php:90
+msgid "File:"
+msgstr "فایل:"
+
+#: admin/includes/CMB2_Hookup.php:188
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+"Term Metadata یک ویژگی وردپرس 4.4+ است. لطفا نصب وردپرس خود را ارتقا دهید."
+
+#: admin/includes/CMB2_Hookup.php:192
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr "پیکربندی متاباکس‌های اصطلاحی به پارامتر «طبقه‌شناسی» نیاز دارد."
+
+#: admin/includes/CMB2_Hookup.php:560
+#, php-format
+msgid "Toggle panel: %s"
+msgstr "تعویض پانل: %s"
+
+#: admin/includes/CMB2_Hookup_Base.php:44
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr "%1$s باید توسط کلاس توسعه یافته پیاده سازی شود."
+
+#: admin/includes/CMB2_JS.php:177 admin/includes/CMB2_JS.php:222
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: admin/includes/CMB2_JS.php:178 inc/ajax-search/includes/class-widget.php:134
+msgid "Default"
+msgstr "پیش فرض"
+
+#: admin/includes/CMB2_JS.php:179
+msgid "Select Color"
+msgstr "رنگ را انتخاب کنید"
+
+#: admin/includes/CMB2_JS.php:180
+msgid "Current Color"
+msgstr "رنگ فعلی"
+
+#: admin/includes/CMB2_JS.php:212
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "mm/dd/yy"
+
+#: admin/includes/CMB2_JS.php:213
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "یکشنبه دوشنبه سه شنبه چهارشنبه پنجشنبه جمعه شنبه"
+
+#: admin/includes/CMB2_JS.php:214
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "یک دو سه چهار پنج جم شن"
+
+#: admin/includes/CMB2_JS.php:215
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "یک دو سه چهار پنج جم شن"
+
+#: admin/includes/CMB2_JS.php:216
+msgid ""
+"January, February, March, April, May, June, July, August, September, October, "
+"November, December"
+msgstr ""
+"ژانویه، فوریه، مارس، آوریل، می، ژوئن، جولای، آگوست، سپتامبر، اکتبر، نوامبر، "
+"دسامبر"
+
+#: admin/includes/CMB2_JS.php:217
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+"ژانویه، فوریه، مارس، آوریل، می، ژوئن، جولای، آگوست، سپتامبر، اکتبر، نوامبر، "
+"دسامبر"
+
+#: admin/includes/CMB2_JS.php:218
+msgid "Next"
+msgstr "بعدی"
+
+#: admin/includes/CMB2_JS.php:219
+msgid "Prev"
+msgstr "قبلی"
+
+#: admin/includes/CMB2_JS.php:220
+msgid "Today"
+msgstr "امروز"
+
+#: admin/includes/CMB2_JS.php:221 admin/includes/CMB2_JS.php:231
+msgid "Done"
+msgstr "انجام شده"
+
+#: admin/includes/CMB2_JS.php:225
+msgid "Choose Time"
+msgstr "زمان را انتخاب کنید"
+
+#: admin/includes/CMB2_JS.php:226
+msgid "Time"
+msgstr "زمان"
+
+#: admin/includes/CMB2_JS.php:227
+msgid "Hour"
+msgstr "ساعت"
+
+#: admin/includes/CMB2_JS.php:228
+msgid "Minute"
+msgstr "دقیقه"
+
+#: admin/includes/CMB2_JS.php:229
+msgid "Second"
+msgstr "ثانیه"
+
+#: admin/includes/CMB2_JS.php:230
+msgid "Now"
+msgstr "الان"
+
+#: admin/includes/CMB2_JS.php:232
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/timepicker/"
+msgid "hh:mm TT"
+msgstr "hh:mm TT"
+
+#: admin/includes/CMB2_JS.php:238
+msgid "Use this file"
+msgstr "از این فایل استفاده کنید"
+
+#: admin/includes/CMB2_JS.php:239
+msgid "Use these files"
+msgstr "از این فایل ها استفاده کنید"
+
+#: admin/includes/CMB2_JS.php:240 admin/includes/types/CMB2_Type_File_Base.php:75
+msgid "Remove Image"
+msgstr "حذف تصویر"
+
+#: admin/includes/CMB2_JS.php:241 admin/includes/CMB2_Types.php:408
+#: admin/includes/types/CMB2_Type_File_Base.php:95
+msgid "Remove"
+msgstr "حذف"
+
+#: admin/includes/CMB2_JS.php:243 admin/includes/types/CMB2_Type_File_Base.php:93
+msgid "Download"
+msgstr "دانلود"
+
+#: admin/includes/CMB2_JS.php:244
+msgid "Select / Deselect All"
+msgstr "انتخاب / لغو انتخاب همه"
+
+#: admin/includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr "چیزی برای به روز رسانی نیست."
+
+#: admin/includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr "تنظیمات به روز شد."
+
+#: admin/includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr "کلاس های نوع فیلد سفارشی CMB2 باید CMB2_Type_Base را گسترش دهند."
+
+#: admin/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr "ردیف اضافه کنید"
+
+#: admin/includes/CMB2_Types.php:408
+msgid "Remove Row"
+msgstr "ردیف را حذف کنید"
+
+#: admin/includes/helper-functions.php:308 inc/settings.php:79
+msgid "Save"
+msgstr "ذخیره"
+
+#: admin/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr "این کادر مجوز خواندن ندارد."
+
+#: admin/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr "این کادر مجوز نوشتن ندارد."
+
+#: admin/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest\" "
+"parameter configured."
+msgstr ""
+"هیچ جعبه ای توسط آن شناسه پیدا نشد. یک کادر باید با پیکربندی پارامتر "
+"\"show_in_rest\" ثبت شود."
+
+#: admin/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr "توصیفی قابل خواندن برای انسان از شی."
+
+#: admin/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr "شناسه شی."
+
+#: admin/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr "عنوان برای شی."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr "شامل فیلدهای ثبت شده برای کادر در پاسخ می باشد."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well as "
+"the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+"شامل ویژگی‌های کاملاً رندر شده، «form_open»، «form_close»، و همچنین دسته‌های "
+"اسکریپت «js_dependencies» و دسته‌های صفحه سبک «css_dependencies» است."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr "هیچ جعبه ای پیدا نشد."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr "شامل شی جعبه ای است که فیلدها در پاسخ ثبت شده اند."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes will "
+"be returned fully rendered. By default, the names of the callback handers for "
+"the renderable attributes will be returned."
+msgstr ""
+"وقتی آرگومان '_rendered' ارسال شد، ویژگی های فیلد قابل رندر به طور کامل "
+"بازگردانده می شوند. به‌طور پیش‌فرض، نام تماس‌گیرنده‌های مربوط به ویژگی‌های قابل "
+"بازگردانی بازگردانده می‌شود."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+"برای مشاهده یا تغییر مقدار فیلد، آرگومان های 'object_id' و 'object_type' مورد "
+"نیاز است."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid "CMB2 Field value cannot be updated without the value parameter specified."
+msgstr "مقدار فیلد CMB2 را نمی توان بدون پارامتر مقدار مشخص شده به روز کرد."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+"مقدار فیلد CMB2 بدون تعیین پارامترهای object_id و object_type قابل تغییر نیست."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr "فیلدی توسط آن شناسه پیدا نشد."
+
+#: admin/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr "خطای مقدار برای %s"
+
+#. translators: %s: register_routes()
+#: admin/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr "روش '%s' باید لغو شود."
+
+#: admin/includes/shim/WP_REST_Controller.php:35
+#: admin/includes/shim/WP_REST_Controller.php:47
+#: admin/includes/shim/WP_REST_Controller.php:59
+#: admin/includes/shim/WP_REST_Controller.php:71
+#: admin/includes/shim/WP_REST_Controller.php:83
+#: admin/includes/shim/WP_REST_Controller.php:95
+#: admin/includes/shim/WP_REST_Controller.php:107
+#: admin/includes/shim/WP_REST_Controller.php:119
+#: admin/includes/shim/WP_REST_Controller.php:131
+#: admin/includes/shim/WP_REST_Controller.php:143
+#: admin/includes/shim/WP_REST_Controller.php:155
+#: admin/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr "روش '%s' اجرا نشد. باید در زیر کلاس لغو شود."
+
+#: admin/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr "صفحه فعلی مجموعه."
+
+#: admin/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr "حداکثر تعداد مواردی که باید در مجموعه نتیجه برگردانده شوند."
+
+#: admin/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr "نتایج را به نتایج مطابق با یک رشته محدود کنید."
+
+#: admin/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+"محدوده ای که درخواست تحت آن ارائه می شود؛ فیلدهای موجود در پاسخ را تعیین می کند."
+
+#: admin/includes/types/CMB2_Type_Counter_Base.php:50
+msgid "Words left"
+msgstr "کلمات باقی مانده"
+
+#: admin/includes/types/CMB2_Type_Counter_Base.php:51
+msgid "Words"
+msgstr "کلمات"
+
+#: admin/includes/types/CMB2_Type_Counter_Base.php:56
+msgid "Characters left"
+msgstr "کاراکتر های باقی مانده"
+
+#: admin/includes/types/CMB2_Type_Counter_Base.php:57
+msgid "Characters"
+msgstr "کاراکتر ها"
+
+#: admin/includes/types/CMB2_Type_Counter_Base.php:62
+msgid "Your text may be truncated."
+msgstr "ممکن است متن شما کوتاه شده باشد."
+
+#: admin/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr "افزودن یا آپلود فایل"
+
+#: admin/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr "افزودن یا آپلود فایل ها"
+
+#: admin/includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr "بدون شرایط"
+
+#: bio-link.php:48 bio-link.php:135 bio-link.php:136 elementor/helper_bio.php:142
+msgid "bio link"
+msgstr "بایو لینک"
+
+#: bio-link.php:146 bio-link.php:147
+msgid "create vcf file"
+msgstr "ایجاد فایل vcf"
+
+#: bio-link.php:155 bio-link.php:156 bio-link.php:336 inc/demos.php:22
+msgid "Bio Link Importer"
+msgstr "درون ریزی دمو"
+
+#: bio-link.php:165 bio-link.php:166
+msgid "Fonts and widgets"
+msgstr "فونت و ابزارک ها"
+
+#: bio-link.php:174 bio-link.php:175 bio-link.php:337
+#: inc/bio_our_products_page.php:3
+msgid "our products"
+msgstr "محصولات ما"
+
+#: bio-link.php:335 elementor/widgets/socials_bio_3.php:121
+#: elementor/widgets/timer_bio.php:35
+msgid "settings"
+msgstr "تنظیمات"
+
+#: bio-link.php:360
+msgid "help"
+msgstr "آموزش"
+
+#: bio-link.php:366
+msgid " Your license is not active. Register your license to use the plugin."
+msgstr ""
+" عزیز لایسنس شما فعال نمی باشد جهت استفاده از افزونه لایسنس خود را ثبت کنید."
+
+#: bio-link.php:369
+msgid " Thank you for purchasing Biolink plugin."
+msgstr " عزیز از این که افزونه بایو لینک را خریداری کرده اید از شما سپاس گذاریم."
+
+#: elementor/helper_bio.php:96
+msgid "bio plugin"
+msgstr "افزونه بایولینک"
+
+#: elementor/icons/iconsax_bio.php:7569
+msgid "iconsax lib"
+msgstr "کتابخانه iconsax"
+
+#: elementor/icons/persian_bio.php:67
+msgid "persian icons"
+msgstr "آیکون های ایرانی"
+
+#: elementor/traits/basic_element_bio.php:35
+#: elementor/traits/basic_element_bio.php:488
+#: elementor/traits/basic_element_bio.php:633
+#: elementor/traits/basic_element_bio.php:749
+#: elementor/traits/basic_element_bio.php:859
+#: elementor/traits/basic_element_bio.php:989
+#: elementor/widgets/bio_advanced_heading.php:125
+#: elementor/widgets/bio_ajax_search.php:75
+#: elementor/widgets/bio_creative_link.php:61
+#: elementor/widgets/bio_current_date.php:57 elementor/widgets/bio_search.php:74
+#: elementor/widgets/bio_share.php:205 elementor/widgets/bio_share.php:213
+#: elementor/widgets/bio_tag_cloud.php:96
+msgid "Alignment"
+msgstr "ترازبندی"
+
+#: elementor/traits/basic_element_bio.php:39
+#: elementor/traits/basic_element_bio.php:492
+#: elementor/traits/basic_element_bio.php:637
+#: elementor/traits/basic_element_bio.php:753
+#: elementor/traits/basic_element_bio.php:863
+#: elementor/traits/basic_element_bio.php:993
+#: elementor/widgets/bio_advanced_heading.php:129
+#: elementor/widgets/bio_ajax_search.php:88
+#: elementor/widgets/bio_creative_link.php:65
+#: elementor/widgets/bio_current_date.php:70 elementor/widgets/bio_search.php:87
+#: elementor/widgets/bio_share.php:226 elementor/widgets/bio_tag_cloud.php:108
+msgid "Right"
+msgstr "راست"
+
+#: elementor/traits/basic_element_bio.php:43
+#: elementor/traits/basic_element_bio.php:496
+#: elementor/traits/basic_element_bio.php:641
+#: elementor/traits/basic_element_bio.php:757
+#: elementor/traits/basic_element_bio.php:867
+#: elementor/traits/basic_element_bio.php:997 elementor/traits/swiper_bio.php:798
+#: elementor/widgets/bio_advanced_heading.php:133
+#: elementor/widgets/bio_ajax_search.php:84
+#: elementor/widgets/bio_creative_link.php:69
+#: elementor/widgets/bio_current_date.php:66 elementor/widgets/bio_search.php:83
+#: elementor/widgets/bio_share.php:222 elementor/widgets/bio_tag_cloud.php:104
+msgid "Center"
+msgstr "مرکز"
+
+#: elementor/traits/basic_element_bio.php:47
+#: elementor/traits/basic_element_bio.php:500
+#: elementor/traits/basic_element_bio.php:645
+#: elementor/traits/basic_element_bio.php:761
+#: elementor/traits/basic_element_bio.php:871
+#: elementor/traits/basic_element_bio.php:1001
+#: elementor/widgets/bio_advanced_heading.php:137
+#: elementor/widgets/bio_ajax_search.php:80
+#: elementor/widgets/bio_creative_link.php:73
+#: elementor/widgets/bio_current_date.php:62 elementor/widgets/bio_search.php:79
+#: elementor/widgets/bio_share.php:218 elementor/widgets/bio_tag_cloud.php:100
+msgid "Left"
+msgstr "چپ"
+
+#: elementor/traits/basic_element_bio.php:51
+#: elementor/traits/basic_element_bio.php:504
+#: elementor/traits/basic_element_bio.php:649
+#: elementor/traits/basic_element_bio.php:765
+#: elementor/traits/basic_element_bio.php:875
+#: elementor/traits/basic_element_bio.php:1005
+#: elementor/widgets/bio_tag_cloud.php:112
+msgid "justify"
+msgstr "تراز به دو سمت"
+
+#: elementor/traits/basic_element_bio.php:67
+#: elementor/traits/basic_element_bio.php:519
+#: elementor/traits/basic_element_bio.php:664
+#: elementor/traits/basic_element_bio.php:780
+#: elementor/traits/basic_element_bio.php:890
+#: elementor/traits/basic_element_bio.php:1020 elementor/traits/swiper_bio.php:934
+#: elementor/traits/swiper_bio.php:1035 elementor/traits/swiper_bio.php:1309
+#: elementor/traits/swiper_bio.php:1428 elementor/traits/swiper_bio.php:1530
+#: elementor/widgets/bio_advanced_heading.php:349
+#: elementor/widgets/bio_ajax_search.php:188 elementor/widgets/bio_search.php:188
+msgid "Color"
+msgstr "رنگ"
+
+#: elementor/traits/basic_element_bio.php:79
+#: elementor/traits/basic_element_bio.php:531
+#: elementor/traits/basic_element_bio.php:676
+#: elementor/traits/basic_element_bio.php:792
+#: elementor/traits/basic_element_bio.php:902
+#: elementor/traits/basic_element_bio.php:1032
+msgid "Text Shadow"
+msgstr "سایه متن"
+
+#: elementor/traits/basic_element_bio.php:87
+#: elementor/traits/basic_element_bio.php:166
+#: elementor/traits/basic_element_bio.php:308
+#: elementor/traits/basic_element_bio.php:539
+#: elementor/traits/basic_element_bio.php:684
+#: elementor/traits/basic_element_bio.php:800
+#: elementor/traits/basic_element_bio.php:910
+#: elementor/traits/basic_element_bio.php:1040 elementor/traits/swiper_bio.php:988
+#: elementor/traits/swiper_bio.php:1270 elementor/widgets/bio_ajax_search.php:155
+#: elementor/widgets/bio_ajax_search.php:315 elementor/widgets/bio_search.php:155
+#: elementor/widgets/bio_search.php:315 elementor/widgets/bio_tag_cloud.php:317
+msgid "Padding"
+msgstr "فاصله پدینگ"
+
+#: elementor/traits/basic_element_bio.php:99
+#: elementor/traits/basic_element_bio.php:696
+#: elementor/traits/basic_element_bio.php:812
+#: elementor/traits/basic_element_bio.php:922
+#: elementor/traits/basic_element_bio.php:1052
+#: elementor/widgets/bio_tag_cloud.php:329
+msgid "margin"
+msgstr "حاشیه"
+
+#: elementor/traits/basic_element_bio.php:128
+#: elementor/traits/basic_element_bio.php:249
+#: elementor/traits/basic_element_bio.php:447
+#: elementor/traits/basic_element_bio.php:560
+#: elementor/traits/basic_element_bio.php:942
+#: elementor/traits/basic_element_bio.php:1072 elementor/traits/swiper_bio.php:973
+#: elementor/traits/swiper_bio.php:1255 elementor/traits/swiper_bio.php:1387
+#: elementor/traits/swiper_bio.php:1485 elementor/traits/video_bio.php:242
+#: elementor/widgets/bio_ajax_search.php:176
+#: elementor/widgets/bio_ajax_search.php:336 elementor/widgets/bio_search.php:176
+#: elementor/widgets/bio_search.php:336 elementor/widgets/bio_tag_cloud.php:305
+msgid "Border Radius"
+msgstr "انحنای حاشیه"
+
+#: elementor/traits/basic_element_bio.php:155
+#: elementor/traits/basic_element_bio.php:297
+msgid "Margin"
+msgstr "مارجین"
+
+#: elementor/traits/basic_element_bio.php:177
+#: elementor/traits/basic_element_bio.php:343
+#: elementor/widgets/bio_advanced_heading.php:238
+#: elementor/widgets/bio_ajax_search.php:132 elementor/widgets/bio_search.php:132
+msgid "Width"
+msgstr "عرض"
+
+#: elementor/traits/basic_element_bio.php:200
+#: elementor/traits/basic_element_bio.php:389
+msgid "height"
+msgstr "ارتفاع"
+
+#: elementor/traits/basic_element_bio.php:223
+#: elementor/traits/basic_element_bio.php:412
+msgid "Opacity"
+msgstr "شفافیت"
+
+#: elementor/traits/basic_element_bio.php:277
+msgid "Animation Duration"
+msgstr "زمان انیمیشن"
+
+#: elementor/traits/basic_element_bio.php:320
+msgid "min Width"
+msgstr "حداقل"
+
+#: elementor/traits/basic_element_bio.php:366
+msgid "min height"
+msgstr "حداقل ارتفاع"
+
+#: elementor/traits/basic_element_bio.php:471
+#: elementor/widgets/bio_competitors.php:29
+#: elementor/widgets/bio_competitors.php:58
+#: elementor/widgets/bio_competitors.php:135
+msgid "header"
+msgstr "سربرگ"
+
+#: elementor/traits/basic_element_bio.php:580
+#: elementor/widgets/bio_category_list.php:136
+#: elementor/widgets/bio_competitors.php:188
+#: elementor/widgets/bio_promo_box.php:89 elementor/widgets/bio_promo_box.php:162
+#: elementor/widgets/testimonials_bio.php:242
+#: elementor/widgets/testimonials_bio_2.php:242
+msgid "body"
+msgstr "بدنه"
+
+#: elementor/traits/basic_element_bio.php:589
+msgid "Border Spacing"
+msgstr "فاصله بوردر"
+
+#: elementor/traits/basic_element_bio.php:604
+msgid "Odd Row"
+msgstr "ردیف فرد"
+
+#: elementor/traits/basic_element_bio.php:725
+msgid "Even Row"
+msgstr "ردیف زوج"
+
+#: elementor/traits/basic_element_bio.php:835
+msgid "Odd Column"
+msgstr "ستون فرد"
+
+#: elementor/traits/basic_element_bio.php:965
+msgid "Even Column"
+msgstr "ستون زوج"
+
+#: elementor/traits/swiper_bio.php:201
+msgid "Carousel Settings"
+msgstr "تنظیمات کاروسل"
+
+#: elementor/traits/swiper_bio.php:208
+msgid "Direction"
+msgstr "جهت"
+
+#: elementor/traits/swiper_bio.php:212
+msgid "Horizontal"
+msgstr "افقی"
+
+#: elementor/traits/swiper_bio.php:213
+msgid "Vertical"
+msgstr "عمودی"
+
+#: elementor/traits/swiper_bio.php:222
+msgid "Container Height"
+msgstr "ارتفاع در برگیرنده"
+
+#: elementor/traits/swiper_bio.php:246
+msgid "Effect"
+msgstr "افکت"
+
+#: elementor/traits/swiper_bio.php:250
+msgid "Slide"
+msgstr "اسلاید"
+
+#: elementor/traits/swiper_bio.php:251
+msgid "Coverflow"
+msgstr "پوشش"
+
+#: elementor/traits/swiper_bio.php:252
+msgid "Cards"
+msgstr "کارت"
+
+#: elementor/traits/swiper_bio.php:253
+msgid "Creative"
+msgstr "خلاقانه"
+
+#: elementor/traits/swiper_bio.php:264 elementor/traits/swiper_bio.php:306
+msgid "slide per view"
+msgstr "اسلاید در هر صفحه"
+
+#: elementor/traits/swiper_bio.php:285 elementor/traits/swiper_bio.php:327
+msgid "slide spacebetween"
+msgstr "فاصله بین"
+
+#: elementor/traits/swiper_bio.php:348
+msgid "cover flow depth"
+msgstr "عمق"
+
+#: elementor/traits/swiper_bio.php:359
+msgid "cover flow modifier"
+msgstr "مودیفایر"
+
+#: elementor/traits/swiper_bio.php:370
+msgid "cover flow rotate"
+msgstr "چرخش"
+
+#: elementor/traits/swiper_bio.php:381
+msgid "cover flow scale"
+msgstr "مقیاس"
+
+#: elementor/traits/swiper_bio.php:392
+msgid "cover flow slideShadows"
+msgstr "سایه اسلاید"
+
+#: elementor/traits/swiper_bio.php:404
+msgid "cover flow stretch"
+msgstr "کش آمدگی"
+
+#: elementor/traits/swiper_bio.php:422
+msgid "Next Slide"
+msgstr "اسلاید بعدی"
+
+#: elementor/traits/swiper_bio.php:432 elementor/traits/swiper_bio.php:507
+msgid "Translate X (%)"
+msgstr "Translate X (%)"
+
+#: elementor/traits/swiper_bio.php:453 elementor/traits/swiper_bio.php:528
+msgid "Translate Y (px)"
+msgstr "Translate Y (px)"
+
+#: elementor/traits/swiper_bio.php:474 elementor/traits/swiper_bio.php:549
+msgid "Translate Z (px)"
+msgstr "Translate Z (px)"
+
+#: elementor/traits/swiper_bio.php:497
+msgid "Previous Slide"
+msgstr "اسلاید قبلی"
+
+#: elementor/traits/swiper_bio.php:586
+msgid "Autoplay"
+msgstr "پخش خودکار"
+
+#: elementor/traits/swiper_bio.php:596
+msgid "Autoplay Speed"
+msgstr "سرعت پخش خودکار"
+
+#: elementor/traits/swiper_bio.php:608
+msgid "Pause on Hover"
+msgstr "توقف در هاور"
+
+#: elementor/traits/swiper_bio.php:617
+msgid "Slides to Scroll"
+msgstr "اسلاید برای پیمایش"
+
+#: elementor/traits/swiper_bio.php:635
+msgid "Center Slide"
+msgstr "اسلاید در مرکز"
+
+#: elementor/traits/swiper_bio.php:643
+msgid "Grab Cursor"
+msgstr "ایکون grap"
+
+#: elementor/traits/swiper_bio.php:651
+msgid "free mode"
+msgstr "حرکت آزاد"
+
+#: elementor/traits/swiper_bio.php:659
+msgid "Loop"
+msgstr "لووپ"
+
+#: elementor/traits/swiper_bio.php:668
+msgid "Auto Height"
+msgstr "ارتفاع خودکار"
+
+#: elementor/traits/swiper_bio.php:677
+msgid "Animation Speed (ms)"
+msgstr "سرعت انیمیشن (ms)"
+
+#: elementor/traits/swiper_bio.php:695 elementor/widgets/socials_bio_3.php:165
+msgid "move with keyboard"
+msgstr "حرکت با کیبورد"
+
+#: elementor/traits/swiper_bio.php:705 elementor/widgets/socials_bio_3.php:177
+msgid "move with mouse wheel"
+msgstr "حرکت با موس"
+
+#: elementor/traits/swiper_bio.php:715
+msgid "Observer"
+msgstr "مشاهده کننده"
+
+#: elementor/traits/swiper_bio.php:716
+msgid ""
+"When you use carousel in any hidden place (in tabs, accordion etc) keep it yes."
+msgstr ""
+"هنگامی که کروسل در هر مکان پنهانی (در زبانه ها، آکاردئون و غیره) استفاده می "
+"کنید، این گزینه را فعال نگه دارید."
+
+#: elementor/traits/swiper_bio.php:725
+msgid "Navigation"
+msgstr "ناو بری"
+
+#: elementor/traits/swiper_bio.php:732 elementor/traits/swiper_bio.php:850
+msgid "Arrows"
+msgstr "فلش ها"
+
+#: elementor/traits/swiper_bio.php:740
+msgid "Arrows Icon"
+msgstr "ایکن فلش ها"
+
+#: elementor/traits/swiper_bio.php:744 elementor/widgets/bio_ajax_search.php:57
+#: elementor/widgets/bio_search.php:56
+msgid "Style 1"
+msgstr "طرح 1"
+
+#: elementor/traits/swiper_bio.php:745 elementor/widgets/bio_ajax_search.php:58
+#: elementor/widgets/bio_search.php:57
+msgid "Style 2"
+msgstr "طرح 2"
+
+#: elementor/traits/swiper_bio.php:746
+msgid "Style 3"
+msgstr "طرح 3"
+
+#: elementor/traits/swiper_bio.php:747
+msgid "Style 4"
+msgstr "طرح 4"
+
+#: elementor/traits/swiper_bio.php:748
+msgid "Style 5"
+msgstr "سبک 5"
+
+#: elementor/traits/swiper_bio.php:749
+msgid "Style 6"
+msgstr "سبک 6"
+
+#: elementor/traits/swiper_bio.php:750 elementor/traits/swiper_bio.php:751
+msgid "Style 8"
+msgstr "سبک 8"
+
+#: elementor/traits/swiper_bio.php:752
+msgid "Style 9"
+msgstr "سبک 9"
+
+#: elementor/traits/swiper_bio.php:753
+msgid "Style 10"
+msgstr "سبک 10"
+
+#: elementor/traits/swiper_bio.php:754
+msgid "Style 11"
+msgstr "سبک 11"
+
+#: elementor/traits/swiper_bio.php:755
+msgid "Style 12"
+msgstr "سبک 12"
+
+#: elementor/traits/swiper_bio.php:756
+msgid "Style 13"
+msgstr "سبک 13"
+
+#: elementor/traits/swiper_bio.php:757
+msgid "Style 14"
+msgstr "سبک 14"
+
+#: elementor/traits/swiper_bio.php:758
+msgid "Style 15"
+msgstr "سبک 15"
+
+#: elementor/traits/swiper_bio.php:759
+msgid "Style 16"
+msgstr "سبک 16"
+
+#: elementor/traits/swiper_bio.php:760
+msgid "Style 17"
+msgstr "سبک 17"
+
+#: elementor/traits/swiper_bio.php:761
+msgid "Style 18"
+msgstr "سبک 18"
+
+#: elementor/traits/swiper_bio.php:762
+msgid "Style 19"
+msgstr "سبک 19"
+
+#: elementor/traits/swiper_bio.php:763
+msgid "Style 20"
+msgstr "سبک 20"
+
+#: elementor/traits/swiper_bio.php:764
+msgid "Style 21"
+msgstr "سبک 21"
+
+#: elementor/traits/swiper_bio.php:765
+msgid "Style 22"
+msgstr "سبک 22"
+
+#: elementor/traits/swiper_bio.php:766
+msgid "Style 23"
+msgstr "سبک 23"
+
+#: elementor/traits/swiper_bio.php:767
+msgid "Style 24"
+msgstr "طرح 24"
+
+#: elementor/traits/swiper_bio.php:768
+msgid "Style 25"
+msgstr "طرح 25"
+
+#: elementor/traits/swiper_bio.php:792
+msgid "Arrows Position"
+msgstr "موقعیت فلش ها"
+
+#: elementor/traits/swiper_bio.php:796
+msgid "Top"
+msgstr "بالا"
+
+#: elementor/traits/swiper_bio.php:797
+msgid "Bottom"
+msgstr "پایین"
+
+#: elementor/traits/swiper_bio.php:799 elementor/traits/swiper_bio.php:1161
+msgid "Top Left"
+msgstr "بالا چپ"
+
+#: elementor/traits/swiper_bio.php:800 elementor/traits/swiper_bio.php:1162
+msgid "Top Center"
+msgstr "بالا مرکز"
+
+#: elementor/traits/swiper_bio.php:801 elementor/traits/swiper_bio.php:1163
+msgid "Top Right"
+msgstr "بالا راست"
+
+#: elementor/traits/swiper_bio.php:802 elementor/traits/swiper_bio.php:1164
+msgid "Bottom Left"
+msgstr "پایین چپ"
+
+#: elementor/traits/swiper_bio.php:803 elementor/traits/swiper_bio.php:1165
+msgid "Bottom Center"
+msgstr "پایین وسط"
+
+#: elementor/traits/swiper_bio.php:804 elementor/traits/swiper_bio.php:1166
+msgid "Bottom Right"
+msgstr "پایین راست"
+
+#: elementor/traits/swiper_bio.php:815
+msgid "Show Arrows on Hover"
+msgstr "نمایش فلش ها در هاور"
+
+#: elementor/traits/swiper_bio.php:826
+msgid "Hide Arrows on Mobile"
+msgstr "پنهان کردن فلش ها در موبایل"
+
+#: elementor/traits/swiper_bio.php:838
+msgid "Navigation and Pagination are disabled from navigation setting."
+msgstr "پیمایش و صفحه‌بندی از تنظیمات پیمایش غیرفعال شده‌اند."
+
+#: elementor/traits/swiper_bio.php:861
+msgid "Arrows Vertical Offset"
+msgstr "فلش ها افست عمودی"
+
+#: elementor/traits/swiper_bio.php:881
+msgid "Arrow Left Offset"
+msgstr "آفست فلش چپ"
+
+#: elementor/traits/swiper_bio.php:901
+msgid "Arrow Right Offset"
+msgstr "آفست فلش راست"
+
+#: elementor/traits/swiper_bio.php:924 elementor/traits/swiper_bio.php:1298
+#: elementor/widgets/bio_creative_link.php:127
+#: elementor/widgets/bio_tag_cloud.php:258 elementor/widgets/bio_tag_cloud.php:408
+msgid "Normal"
+msgstr "عادی"
+
+#: elementor/traits/swiper_bio.php:948 elementor/traits/swiper_bio.php:1049
+#: elementor/widgets/bio_ajax_search.php:210
+#: elementor/widgets/bio_ajax_search.php:252 elementor/widgets/bio_search.php:210
+#: elementor/widgets/bio_search.php:252
+msgid "Background"
+msgstr "پس زمینه"
+
+#: elementor/traits/swiper_bio.php:1003
+msgid "Size"
+msgstr "اندازه"
+
+#: elementor/traits/swiper_bio.php:1025
+#: elementor/widgets/bio_creative_link.php:138
+#: elementor/widgets/bio_tag_cloud.php:351 elementor/widgets/bio_tag_cloud.php:430
+msgid "Hover"
+msgstr "هاور"
+
+#: elementor/traits/swiper_bio.php:1063 elementor/widgets/bio_tag_cloud.php:367
+msgid "Border Color"
+msgstr "رنگ بوردر"
+
+#: elementor/traits/swiper_bio.php:1101 elementor/widgets/bio_image_tab.php:160
+#: elementor/widgets/map_bio.php:56 elementor/widgets/save_vcf_bio.php:63
+#: elementor/widgets/timer_bio.php:55
+msgid "style"
+msgstr "استایل"
+
+#: elementor/traits/swiper_bio.php:1113
+msgid "pagination"
+msgstr "صفحه بندی"
+
+#: elementor/traits/swiper_bio.php:1121
+msgid "Pagination"
+msgstr "صفحه بندی"
+
+#: elementor/traits/swiper_bio.php:1129
+msgid "Pagination Type"
+msgstr "نوع صفحه بندی"
+
+#: elementor/traits/swiper_bio.php:1133 elementor/traits/swiper_bio.php:1180
+msgid "Bullets"
+msgstr "گلوله ها"
+
+#: elementor/traits/swiper_bio.php:1134 elementor/traits/swiper_bio.php:1518
+msgid "Fraction"
+msgstr "کسر"
+
+#: elementor/traits/swiper_bio.php:1145
+msgid "Dynamic Bullets"
+msgstr "گلوله های پویا"
+
+#: elementor/traits/swiper_bio.php:1157
+msgid "Pagination Position"
+msgstr "موقعیت صفحه بندی"
+
+#: elementor/traits/swiper_bio.php:1167
+msgid "Center Left"
+msgstr "وسط چپ"
+
+#: elementor/traits/swiper_bio.php:1168
+msgid "Center Right"
+msgstr "وسط راست"
+
+#: elementor/traits/swiper_bio.php:1192
+msgid "Vertical Offset"
+msgstr "افست عمودی"
+
+#: elementor/traits/swiper_bio.php:1212
+msgid "Horizontal Offset"
+msgstr "افست افقی"
+
+#: elementor/traits/swiper_bio.php:1324
+msgid "Space Between"
+msgstr "فاصله بین"
+
+#: elementor/traits/swiper_bio.php:1345 elementor/traits/swiper_bio.php:1443
+msgid "Width(px)"
+msgstr "عرض (px)"
+
+#: elementor/traits/swiper_bio.php:1366 elementor/traits/swiper_bio.php:1464
+msgid "Height(px)"
+msgstr "ارتفاع (px)"
+
+#: elementor/traits/swiper_bio.php:1417
+msgid "Active"
+msgstr "فعال"
+
+#: elementor/traits/swiper_bio.php:1545
+msgid "Active Color"
+msgstr "رنگ فعال"
+
+#: elementor/traits/swiper_bio.php:1561 elementor/widgets/bio_ajax_search.php:231
+#: elementor/widgets/bio_search.php:231
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: elementor/traits/video_bio.php:101
+msgid "video Settings"
+msgstr "تنظیمات پست"
+
+#: elementor/traits/video_bio.php:109
+msgid "play large"
+msgstr "پخش بزرگ"
+
+#: elementor/traits/video_bio.php:119
+msgid "play"
+msgstr "پخش"
+
+#: elementor/traits/video_bio.php:129
+msgid "progress"
+msgstr "نوار پیشرفت"
+
+#: elementor/traits/video_bio.php:139
+msgid "current time"
+msgstr "تاریخ فعلی"
+
+#: elementor/traits/video_bio.php:149
+msgid "mute"
+msgstr "بی صدا"
+
+#: elementor/traits/video_bio.php:159
+msgid "volume"
+msgstr "صدا"
+
+#: elementor/traits/video_bio.php:169
+msgid "pip"
+msgstr "تصویر در تصویر"
+
+#: elementor/traits/video_bio.php:179
+msgid "download"
+msgstr "دانلود"
+
+#: elementor/traits/video_bio.php:189
+msgid "fullscreen"
+msgstr "تمام صفحه"
+
+#: elementor/traits/video_bio.php:199
+msgid "ratio"
+msgstr "نسبت"
+
+#: elementor/traits/video_bio.php:211
+msgid "play image"
+msgstr "تصویر پخش"
+
+#: elementor/traits/video_bio.php:222
+msgid "play image size"
+msgstr "سایز تصویر پخش"
+
+#: elementor/traits/video_bio.php:259
+msgid "video style"
+msgstr "استایل ویدئو"
+
+#: elementor/traits/video_bio.php:267
+msgid "trun on or off to apply style in editor"
+msgstr "جهت اعمال استایل ها یک بار روشن خاموش کنید"
+
+#: elementor/traits/video_bio.php:275
+msgid "plyr color main"
+msgstr "رنگ اصلی پخش کننده"
+
+#: elementor/traits/video_bio.php:283
+msgid "plyr video background"
+msgstr "پس‌زمینه ویدئو"
+
+#: elementor/traits/video_bio.php:291
+msgid "plyr focus visible color"
+msgstr "رنگ تمرکز پخش کننده"
+
+#: elementor/traits/video_bio.php:299
+msgid " plyr badge background"
+msgstr " پس‌زمینه بج پخش کننده"
+
+#: elementor/traits/video_bio.php:308
+msgid "plyr badge text color"
+msgstr "رنگ متن بج پخش کننده"
+
+#: elementor/traits/video_bio.php:316
+msgid "plyr badge borderradius"
+msgstr "انحنای بج ویدئو"
+
+#: elementor/traits/video_bio.php:336
+msgid "plyr icon size"
+msgstr "سایز ایکون"
+
+#: elementor/traits/video_bio.php:356
+msgid " plyr control spacing"
+msgstr " فاصله کنترل های پخش کننده"
+
+#: elementor/traits/video_bio.php:376
+msgid "plyr control padding"
+msgstr "فاصله کنترلر های پخش کننده"
+
+#: elementor/traits/video_bio.php:396
+msgid "plyr control radius"
+msgstr "حاشیه کنترل های پخش کننده"
+
+#: elementor/traits/video_bio.php:416
+msgid "plyr video controls background"
+msgstr "پس زمینه ویدئو پخش کننده"
+
+#: elementor/traits/video_bio.php:424
+msgid "plyr video control color"
+msgstr "رنگ کنترل های پخش کننده"
+
+#: elementor/traits/video_bio.php:432
+msgid "plyr video control color hover"
+msgstr "رنگ هاور کنترل های پخش کننده"
+
+#: elementor/traits/video_bio.php:440
+msgid "plyr progress loading size"
+msgstr "سایز لودینگ پخش کننده"
+
+#: elementor/traits/video_bio.php:460
+msgid "plyr progress loading background"
+msgstr "رنگ پس زمینه لودینگ پخش کننده"
+
+#: elementor/traits/video_bio.php:468
+msgid "plyr video progress buffered background"
+msgstr "رنگ پس زمینه بافر نوار پیشرفت پخش کننده"
+
+#: elementor/traits/video_bio.php:476
+msgid "plyr range thumb height"
+msgstr "ارتفاع بافر پخش کننده"
+
+#: elementor/traits/video_bio.php:496
+msgid "plyr range thumb background"
+msgstr "پس زمینه بافر پخش کننده"
+
+#: elementor/traits/video_bio.php:504
+msgid "plyr range track height"
+msgstr "ارتفاع نوار پیشرفت پخش کننده"
+
+#: elementor/widgets/bio_advanced_heading.php:19
+msgid "Advanced Heading"
+msgstr "عنوان پیشرفته"
+
+#: elementor/widgets/bio_advanced_heading.php:38
+msgid "titels"
+msgstr "عناوین"
+
+#: elementor/widgets/bio_advanced_heading.php:45
+#: elementor/widgets/bio_advanced_heading.php:167
+msgid "Text One"
+msgstr "متن یک"
+
+#: elementor/widgets/bio_advanced_heading.php:56
+#: elementor/widgets/bio_advanced_heading.php:181
+msgid "Text Two"
+msgstr "متن دو"
+
+#: elementor/widgets/bio_advanced_heading.php:67
+msgid "Text three"
+msgstr "متن سه"
+
+#: elementor/widgets/bio_advanced_heading.php:78
+msgid "Text"
+msgstr "متن"
+
+#: elementor/widgets/bio_advanced_heading.php:89
+msgid "HTML Tag"
+msgstr "تگ html"
+
+#: elementor/widgets/bio_advanced_heading.php:94
+msgid "H1"
+msgstr "H1"
+
+#: elementor/widgets/bio_advanced_heading.php:98
+msgid "H2"
+msgstr "H2"
+
+#: elementor/widgets/bio_advanced_heading.php:102
+msgid "H3"
+msgstr "H3"
+
+#: elementor/widgets/bio_advanced_heading.php:106
+msgid "H4"
+msgstr "H4"
+
+#: elementor/widgets/bio_advanced_heading.php:110
+msgid "H5"
+msgstr "H5"
+
+#: elementor/widgets/bio_advanced_heading.php:114
+msgid "H6"
+msgstr "H6"
+
+#: elementor/widgets/bio_advanced_heading.php:152
+#: elementor/widgets/bio_creative_link.php:53
+msgid "Link"
+msgstr "لینک"
+
+#: elementor/widgets/bio_advanced_heading.php:195
+msgid "Text Three"
+msgstr "متن سه"
+
+#: elementor/widgets/bio_advanced_heading.php:210
+#: elementor/widgets/bio_ajax_search.php:168
+#: elementor/widgets/bio_ajax_search.php:328 elementor/widgets/bio_search.php:168
+#: elementor/widgets/bio_search.php:328
+msgid "Border"
+msgstr "حاشیه"
+
+#: elementor/widgets/bio_advanced_heading.php:218
+msgid "Border Type"
+msgstr "نوع حاشیه"
+
+#: elementor/widgets/bio_advanced_heading.php:222
+msgid "Solid"
+msgstr "تک رنگ"
+
+#: elementor/widgets/bio_advanced_heading.php:223
+msgid "Double"
+msgstr "دوتایی"
+
+#: elementor/widgets/bio_advanced_heading.php:224
+msgid "Dotted"
+msgstr "نقطه"
+
+#: elementor/widgets/bio_advanced_heading.php:225
+msgid "Dashed"
+msgstr "خط فاصله"
+
+#: elementor/widgets/bio_advanced_heading.php:226
+msgid "Groove"
+msgstr "شیار"
+
+#: elementor/widgets/bio_advanced_heading.php:259
+msgid "Height"
+msgstr "ارتفاع"
+
+#: elementor/widgets/bio_advanced_heading.php:283
+#: elementor/widgets/bio_advanced_heading.php:391
+msgid "Offset"
+msgstr "افست"
+
+#: elementor/widgets/bio_advanced_heading.php:286
+#: elementor/widgets/bio_advanced_heading.php:394
+msgid "Custom"
+msgstr "سفارشی"
+
+#: elementor/widgets/bio_advanced_heading.php:299
+#: elementor/widgets/bio_advanced_heading.php:404
+msgid "Horizontal Position"
+msgstr "موقعیت افقی"
+
+#: elementor/widgets/bio_advanced_heading.php:323
+#: elementor/widgets/bio_advanced_heading.php:428
+msgid "Vertical Position"
+msgstr "موقعیت عمودی"
+
+#: elementor/widgets/bio_advanced_heading.php:363
+msgid "Border radius"
+msgstr "حاشیه کادر"
+
+#: elementor/widgets/bio_advanced_heading.php:382
+msgid "Background Text"
+msgstr "متن پس زمینه"
+
+#: elementor/widgets/bio_ajax_search.php:18
+msgid "ajax search"
+msgstr "جستجو ایجکس"
+
+#: elementor/widgets/bio_ajax_search.php:33 elementor/widgets/bio_search.php:32
+#: inc/ajax-search/includes/class-plugin.php:240
+#: inc/ajax-search/includes/class-settings.php:79
+#: inc/ajax-search/includes/class-settings.php:343
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: elementor/widgets/bio_ajax_search.php:40 elementor/widgets/bio_search.php:39
+msgid "Search Type"
+msgstr "نوع جستجو"
+
+#: elementor/widgets/bio_ajax_search.php:44 elementor/widgets/bio_search.php:43
+msgid "Popup"
+msgstr "پنجره‌ی بازشو"
+
+#: elementor/widgets/bio_ajax_search.php:45 elementor/widgets/bio_search.php:44
+msgid "Inline"
+msgstr "درون خطی"
+
+#: elementor/widgets/bio_ajax_search.php:53 elementor/widgets/bio_search.php:52
+msgid "Popup Style"
+msgstr "استایل پنجره بازشو"
+
+#: elementor/widgets/bio_ajax_search.php:67 elementor/widgets/bio_back_page.php:43
+#: elementor/widgets/bio_copy_link.php:43 elementor/widgets/bio_search.php:66
+#: elementor/widgets/bio_share.php:43 elementor/widgets/name_bio.php:82
+#: elementor/widgets/name_bio_2.php:82
+msgid "Button Title"
+msgstr "عنوان دکمه"
+
+#: elementor/widgets/bio_ajax_search.php:106 elementor/widgets/bio_search.php:106
+msgid "Button"
+msgstr "دکمه"
+
+#: elementor/widgets/bio_ajax_search.php:123 elementor/widgets/bio_search.php:123
+msgid "Form"
+msgstr "فرم"
+
+#: elementor/widgets/bio_ajax_search.php:199
+#: elementor/widgets/bio_ajax_search.php:359 elementor/widgets/bio_search.php:199
+#: elementor/widgets/bio_search.php:359
+msgid "Placeholder Color"
+msgstr "رنگ مکان نگهدارنده"
+
+#: elementor/widgets/bio_ajax_search.php:222 elementor/widgets/bio_search.php:222
+msgid "Box Shadow"
+msgstr "سایه‌ی جعبه"
+
+#: elementor/widgets/bio_ajax_search.php:242 elementor/widgets/bio_search.php:242
+msgid "Popup Container"
+msgstr "ظرف پنجره بازشو"
+
+#: elementor/widgets/bio_ajax_search.php:261 elementor/widgets/bio_search.php:261
+msgid "Closer Button Color"
+msgstr "رنگ دکمه بستن"
+
+#: elementor/widgets/bio_ajax_search.php:272 elementor/widgets/bio_search.php:272
+msgid "Title Color"
+msgstr "رنگ عنوان"
+
+#: elementor/widgets/bio_ajax_search.php:284 elementor/widgets/bio_search.php:284
+msgid "Title Typography"
+msgstr "تایپوگرافی عنوان"
+
+#: elementor/widgets/bio_ajax_search.php:292 elementor/widgets/bio_search.php:292
+msgid "Form Width"
+msgstr "عرض فرم"
+
+#: elementor/widgets/bio_ajax_search.php:348 elementor/widgets/bio_search.php:348
+msgid "Form Color"
+msgstr "رنگ فرم"
+
+#: elementor/widgets/bio_ajax_search.php:370 elementor/widgets/bio_search.php:370
+msgid "Form Background"
+msgstr "پس زمینه فرم"
+
+#: elementor/widgets/bio_ajax_search.php:381 elementor/widgets/bio_search.php:381
+msgid "Icon Color"
+msgstr "رنگ ایکون"
+
+#: elementor/widgets/bio_ajax_search.php:396 elementor/widgets/bio_search.php:396
+msgid "icon style"
+msgstr "استایل ایکون"
+
+#: elementor/widgets/bio_ajax_search.php:433 elementor/widgets/bio_search.php:435
+msgid "Type and hit Enter to search"
+msgstr "برای جستجو تایپ کرده و Enter را بزنید"
+
+#: elementor/widgets/bio_ajax_search.php:438
+#: elementor/widgets/bio_ajax_search.php:457 elementor/widgets/bio_search.php:439
+#: elementor/widgets/bio_search.php:453
+msgid "Search ..."
+msgstr "جستجو ..."
+
+#: elementor/widgets/bio_back_page.php:19
+msgid "back page"
+msgstr "بازگشت به عقب"
+
+#: elementor/widgets/bio_back_page.php:35 elementor/widgets/bio_copy_link.php:35
+#: elementor/widgets/bio_share.php:35 elementor/widgets/bio_tag_cloud.php:36
+#: elementor/widgets/contact_bio.php:39 elementor/widgets/contact_bio.php:47
+#: elementor/widgets/socials_bio.php:39 elementor/widgets/socials_bio.php:47
+#: elementor/widgets/socials_bio_2.php:39 elementor/widgets/socials_bio_2.php:47
+#: elementor/widgets/testimonials_bio.php:39
+#: elementor/widgets/testimonials_bio.php:47
+#: elementor/widgets/testimonials_bio_2.php:39
+#: elementor/widgets/testimonials_bio_2.php:47 elementor/widgets/works_bio.php:39
+#: elementor/widgets/works_bio.php:47
+msgid "Layout"
+msgstr "چیدمان"
+
+#: elementor/widgets/bio_back_page.php:57 elementor/widgets/bio_copy_link.php:72
+#: elementor/widgets/bio_share.php:137 elementor/widgets/save_vcf_bio.php:43
+#: elementor/widgets/testimonials_bio.php:285 elementor/widgets/timer_bio.php:76
+msgid "text"
+msgstr "متن"
+
+#: elementor/widgets/bio_back_page.php:67
+#: elementor/widgets/bio_competitors.php:147
+#: elementor/widgets/bio_copy_link.php:82 elementor/widgets/bio_image_tab.php:172
+#: elementor/widgets/bio_share.php:147 elementor/widgets/bio_video_gallery.php:140
+#: elementor/widgets/socials_bio.php:270
+msgid "normal"
+msgstr "معمولی"
+
+#: elementor/widgets/bio_back_page.php:79 elementor/widgets/bio_copy_link.php:105
+#: elementor/widgets/bio_image_tab.php:183 elementor/widgets/bio_share.php:171
+#: elementor/widgets/contact_bio.php:134 elementor/widgets/socials_bio.php:134
+#: elementor/widgets/socials_bio.php:336 elementor/widgets/socials_bio_2.php:134
+#: elementor/widgets/testimonials_bio.php:134
+#: elementor/widgets/testimonials_bio_2.php:134
+#: elementor/widgets/works_bio.php:134
+msgid "hover"
+msgstr "هاور"
+
+#: elementor/widgets/bio_category_list.php:17
+msgid "category list"
+msgstr "لیست دسته بندی"
+
+#: elementor/widgets/bio_category_list.php:48
+#: elementor/widgets/bio_tag_cloud.php:152
+msgid "Query"
+msgstr "کوئری"
+
+#: elementor/widgets/bio_category_list.php:55
+#: elementor/widgets/bio_tag_cloud.php:159
+msgid "Item Limit"
+msgstr "محدودیت مورد"
+
+#: elementor/widgets/bio_category_list.php:69
+#: elementor/widgets/bio_tag_cloud.php:173
+msgid "Taxonomy"
+msgstr "دسته بندی"
+
+#: elementor/widgets/bio_category_list.php:79
+#: elementor/widgets/bio_tag_cloud.php:191
+msgid "Order By"
+msgstr "مرتب سازی بر اساس"
+
+#: elementor/widgets/bio_category_list.php:83
+#: elementor/widgets/bio_tag_cloud.php:195 elementor/widgets/bio_tag_cloud.php:399
+msgid "Name"
+msgstr "نام"
+
+#: elementor/widgets/bio_category_list.php:84
+#: elementor/widgets/bio_tag_cloud.php:196
+msgid "Post Count"
+msgstr "تعداد پست"
+
+#: elementor/widgets/bio_category_list.php:92
+#: elementor/widgets/bio_tag_cloud.php:204
+msgid "Order"
+msgstr "ترتیب"
+
+#: elementor/widgets/bio_category_list.php:96
+#: elementor/widgets/bio_tag_cloud.php:208
+msgid "ASC"
+msgstr "صعدوی"
+
+#: elementor/widgets/bio_category_list.php:97
+#: elementor/widgets/bio_tag_cloud.php:209
+msgid "DESC"
+msgstr "نزولی"
+
+#: elementor/widgets/bio_category_list.php:105
+#: elementor/widgets/bio_tag_cloud.php:217
+msgid "Include"
+msgstr "شامل"
+
+#: elementor/widgets/bio_category_list.php:107
+#: elementor/widgets/bio_category_list.php:116
+#: elementor/widgets/bio_tag_cloud.php:219 elementor/widgets/bio_tag_cloud.php:228
+msgid "Tag ID: 12,3,1"
+msgstr "شناسه برچسب: ۱۲، ۳، ۱"
+
+#: elementor/widgets/bio_category_list.php:114
+#: elementor/widgets/bio_tag_cloud.php:226
+msgid "Exclude"
+msgstr "مستثنی کردن"
+
+#: elementor/widgets/bio_category_list.php:123
+#: elementor/widgets/bio_tag_cloud.php:235
+msgid "Parent"
+msgstr "والد"
+
+#: elementor/widgets/bio_category_list.php:125
+#: elementor/widgets/bio_tag_cloud.php:237
+msgid "Tag ID: 12"
+msgstr "شناسه برچسب: ۱۲"
+
+#: elementor/widgets/bio_category_list.php:151
+msgid "body item"
+msgstr "بدنه ایتم"
+
+#: elementor/widgets/bio_category_list.php:165
+msgid "child body"
+msgstr "بدنه فرزند"
+
+#: elementor/widgets/bio_category_list.php:179
+msgid "child body item"
+msgstr "بدنه ایتم فرزند"
+
+#: elementor/widgets/bio_category_list.php:193
+msgid "item icon"
+msgstr "آیکون ایتم"
+
+#: elementor/widgets/bio_competitors.php:14
+msgid "competitors"
+msgstr "جدول رقبا"
+
+#: elementor/widgets/bio_competitors.php:38
+#: elementor/widgets/bio_video_gallery.php:40 elementor/widgets/name_bio.php:21
+#: elementor/widgets/name_bio.php:37 elementor/widgets/name_bio.php:160
+#: elementor/widgets/name_bio_2.php:37 elementor/widgets/name_bio_2.php:152
+#: elementor/widgets/socials_bio.php:279 elementor/widgets/socials_bio.php:345
+#: elementor/widgets/socials_bio_2.php:278 elementor/widgets/socials_bio_3.php:238
+#: elementor/widgets/testimonials_bio.php:192
+#: elementor/widgets/testimonials_bio.php:263
+#: elementor/widgets/testimonials_bio_2.php:192
+#: elementor/widgets/testimonials_bio_2.php:263
+#: elementor/widgets/works_bio.php:316 inc/vcf_generator_fun.php:24
+#: inc/vcf_generator_fun.php:25
+msgid "name"
+msgstr "نام"
+
+#: elementor/widgets/bio_competitors.php:46
+msgid "main?"
+msgstr "اصلی؟"
+
+#: elementor/widgets/bio_competitors.php:48
+#: elementor/widgets/bio_competitors.php:96 elementor/widgets/bio_plans.php:85
+#: elementor/widgets/bio_plans.php:144 elementor/widgets/socials_bio_3.php:143
+#: elementor/widgets/socials_bio_3.php:155 elementor/widgets/socials_bio_3.php:167
+#: elementor/widgets/socials_bio_3.php:179
+msgid "yes"
+msgstr "بله"
+
+#: elementor/widgets/bio_competitors.php:49
+#: elementor/widgets/bio_competitors.php:97 elementor/widgets/bio_plans.php:86
+#: elementor/widgets/bio_plans.php:145 elementor/widgets/socials_bio_3.php:144
+#: elementor/widgets/socials_bio_3.php:156 elementor/widgets/socials_bio_3.php:168
+#: elementor/widgets/socials_bio_3.php:180
+msgid "no"
+msgstr "خیر"
+
+#: elementor/widgets/bio_competitors.php:73
+msgid "possibilities"
+msgstr "امکانات"
+
+#: elementor/widgets/bio_competitors.php:82 elementor/widgets/bio_plans.php:38
+msgid "attribute or value?"
+msgstr "مقدار یا ویژگی؟"
+
+#: elementor/widgets/bio_competitors.php:84
+#: elementor/widgets/bio_competitors.php:109 elementor/widgets/bio_plans.php:40
+msgid "attribute"
+msgstr "ویژگی"
+
+#: elementor/widgets/bio_competitors.php:85 elementor/widgets/bio_plans.php:41
+msgid "value"
+msgstr "مقدار"
+
+#: elementor/widgets/bio_competitors.php:94
+msgid "yes or no?"
+msgstr "بله یا خیر؟"
+
+#: elementor/widgets/bio_competitors.php:120
+msgid "attributes"
+msgstr "ویژگی های"
+
+#: elementor/widgets/bio_competitors.php:158
+msgid "main"
+msgstr "اصلی"
+
+#: elementor/widgets/bio_competitors.php:169
+msgid "first"
+msgstr "اول"
+
+#: elementor/widgets/bio_competitors.php:198
+msgid "icon size"
+msgstr "سایز ایکون"
+
+#: elementor/widgets/bio_competitors.php:220
+msgid "first icon color"
+msgstr "رنگ آیکون اول"
+
+#: elementor/widgets/bio_competitors.php:231
+msgid "seccond icon color"
+msgstr "رنگ آیکون دوم"
+
+#: elementor/widgets/bio_copy_link.php:19
+msgid "copy link"
+msgstr "کپی کردن لینک"
+
+#: elementor/widgets/bio_copy_link.php:51 elementor/widgets/bio_share.php:51
+#: elementor/widgets/name_bio.php:90 elementor/widgets/name_bio_2.php:90
+msgid "Button Icon"
+msgstr "نماد دکمه"
+
+#: elementor/widgets/bio_copy_link.php:59 elementor/widgets/bio_image_tab.php:80
+#: elementor/widgets/bio_promo_box.php:77 elementor/widgets/bio_share.php:123
+#: elementor/widgets/contact_bio.php:225 elementor/widgets/name_bio.php:106
+#: elementor/widgets/name_bio_2.php:98 elementor/widgets/socials_bio.php:217
+#: elementor/widgets/socials_bio_2.php:240 elementor/widgets/socials_bio_3.php:71
+#: elementor/widgets/works_bio.php:224
+msgid "link"
+msgstr "لینک"
+
+#: elementor/widgets/bio_copy_link.php:91 elementor/widgets/bio_copy_link.php:114
+#: elementor/widgets/bio_image_tab.php:72 elementor/widgets/bio_image_tab.php:122
+#: elementor/widgets/bio_share.php:157 elementor/widgets/bio_share.php:180
+#: elementor/widgets/bio_share.php:191 elementor/widgets/bio_tag_cloud.php:417
+#: elementor/widgets/bio_tag_cloud.php:439 elementor/widgets/name_bio.php:198
+#: elementor/widgets/name_bio_2.php:190 elementor/widgets/order_bio.php:189
+#: elementor/widgets/socials_bio_2.php:300
+msgid "icon"
+msgstr "آـیکون"
+
+#: elementor/widgets/bio_copy_link.php:141 elementor/widgets/bio_share.php:316
+msgid "Link Copied!"
+msgstr "لینک کپی شد!"
+
+#: elementor/widgets/bio_creative_link.php:18
+msgid "Creative Link"
+msgstr "پیوند خلاقانه"
+
+#: elementor/widgets/bio_creative_link.php:33
+#: elementor/widgets/bio_creative_link.php:116
+msgid "Link Content"
+msgstr "محتوای پیوند"
+
+#: elementor/widgets/bio_creative_link.php:41
+#: elementor/widgets/contact_bio.php:216 elementor/widgets/contact_bio.php:298
+#: elementor/widgets/socials_bio.php:208 elementor/widgets/socials_bio_2.php:208
+#: elementor/widgets/socials_bio_3.php:54 elementor/widgets/works_bio.php:207
+msgid "Title"
+msgstr "عنوان"
+
+#: elementor/widgets/bio_creative_link.php:88
+msgid "Animation Style"
+msgstr "استایل انیمیشن"
+
+#: elementor/widgets/bio_creative_link.php:92
+#: elementor/widgets/bio_promo_box.php:114 elementor/widgets/contact_bio.php:139
+#: elementor/widgets/socials_bio.php:139 elementor/widgets/socials_bio_2.php:139
+#: elementor/widgets/testimonials_bio.php:139
+#: elementor/widgets/testimonials_bio_2.php:139
+#: elementor/widgets/works_bio.php:139 inc/function.php:152 inc/function.php:167
+msgid "style 1"
+msgstr "سبک 1"
+
+#: elementor/widgets/bio_creative_link.php:93
+#: elementor/widgets/bio_promo_box.php:115 elementor/widgets/contact_bio.php:140
+#: elementor/widgets/socials_bio.php:140 elementor/widgets/socials_bio_2.php:140
+#: elementor/widgets/testimonials_bio.php:140
+#: elementor/widgets/testimonials_bio_2.php:140
+#: elementor/widgets/works_bio.php:140 inc/function.php:153 inc/function.php:168
+msgid "style 2"
+msgstr "سبک 2"
+
+#: elementor/widgets/bio_creative_link.php:94
+#: elementor/widgets/bio_promo_box.php:116 elementor/widgets/contact_bio.php:141
+#: elementor/widgets/socials_bio.php:141 elementor/widgets/socials_bio_2.php:141
+#: elementor/widgets/testimonials_bio.php:141
+#: elementor/widgets/testimonials_bio_2.php:141
+#: elementor/widgets/works_bio.php:141 inc/function.php:154 inc/function.php:169
+msgid "style 3"
+msgstr "سبک 3"
+
+#: elementor/widgets/bio_creative_link.php:95
+#: elementor/widgets/bio_promo_box.php:117 elementor/widgets/contact_bio.php:142
+#: elementor/widgets/socials_bio.php:142 elementor/widgets/socials_bio_2.php:142
+#: elementor/widgets/testimonials_bio.php:142
+#: elementor/widgets/testimonials_bio_2.php:142
+#: elementor/widgets/works_bio.php:142 inc/function.php:155 inc/function.php:170
+msgid "style 4"
+msgstr "سبک 4"
+
+#: elementor/widgets/bio_creative_link.php:96
+#: elementor/widgets/bio_promo_box.php:118 elementor/widgets/contact_bio.php:143
+#: elementor/widgets/socials_bio.php:143 elementor/widgets/socials_bio_2.php:143
+#: elementor/widgets/testimonials_bio.php:143
+#: elementor/widgets/testimonials_bio_2.php:143
+#: elementor/widgets/works_bio.php:143 inc/function.php:156
+msgid "style 5"
+msgstr "سبک 5"
+
+#: elementor/widgets/bio_creative_link.php:97
+#: elementor/widgets/bio_promo_box.php:119 elementor/widgets/contact_bio.php:144
+#: elementor/widgets/socials_bio.php:144 elementor/widgets/socials_bio_2.php:144
+#: elementor/widgets/testimonials_bio.php:144
+#: elementor/widgets/testimonials_bio_2.php:144
+#: elementor/widgets/works_bio.php:144 inc/function.php:157
+msgid "style 6"
+msgstr "سبک 6"
+
+#: elementor/widgets/bio_creative_link.php:98
+#: elementor/widgets/bio_promo_box.php:120 elementor/widgets/contact_bio.php:145
+#: elementor/widgets/socials_bio.php:145 elementor/widgets/socials_bio_2.php:145
+#: elementor/widgets/testimonials_bio.php:145
+#: elementor/widgets/testimonials_bio_2.php:145
+#: elementor/widgets/works_bio.php:145
+msgid "style 7"
+msgstr "سبک 7"
+
+#: elementor/widgets/bio_creative_link.php:99
+#: elementor/widgets/bio_promo_box.php:121 elementor/widgets/contact_bio.php:146
+#: elementor/widgets/socials_bio.php:146 elementor/widgets/socials_bio_2.php:146
+#: elementor/widgets/testimonials_bio.php:146
+#: elementor/widgets/testimonials_bio_2.php:146
+#: elementor/widgets/works_bio.php:146
+msgid "style 8"
+msgstr "سبک 8"
+
+#: elementor/widgets/bio_creative_link.php:100
+#: elementor/widgets/bio_promo_box.php:122 elementor/widgets/contact_bio.php:147
+#: elementor/widgets/socials_bio.php:147 elementor/widgets/socials_bio_2.php:147
+#: elementor/widgets/testimonials_bio.php:147
+#: elementor/widgets/testimonials_bio_2.php:147
+#: elementor/widgets/works_bio.php:147
+msgid "style 9"
+msgstr "سبک 9"
+
+#: elementor/widgets/bio_creative_link.php:101
+#: elementor/widgets/bio_promo_box.php:123 elementor/widgets/contact_bio.php:148
+#: elementor/widgets/socials_bio.php:148 elementor/widgets/socials_bio_2.php:148
+#: elementor/widgets/testimonials_bio.php:148
+#: elementor/widgets/testimonials_bio_2.php:148
+#: elementor/widgets/works_bio.php:148
+msgid "style 10"
+msgstr "سبک 10"
+
+#: elementor/widgets/bio_creative_link.php:102
+#: elementor/widgets/bio_promo_box.php:124 elementor/widgets/contact_bio.php:149
+#: elementor/widgets/socials_bio.php:149 elementor/widgets/socials_bio_2.php:149
+#: elementor/widgets/testimonials_bio.php:149
+#: elementor/widgets/testimonials_bio_2.php:149
+#: elementor/widgets/works_bio.php:149
+msgid "style 11"
+msgstr "سبک 11"
+
+#: elementor/widgets/bio_creative_link.php:103
+#: elementor/widgets/bio_promo_box.php:125 elementor/widgets/contact_bio.php:150
+#: elementor/widgets/socials_bio.php:150 elementor/widgets/socials_bio_2.php:150
+#: elementor/widgets/testimonials_bio.php:150
+#: elementor/widgets/testimonials_bio_2.php:150
+#: elementor/widgets/works_bio.php:150
+msgid "style 12"
+msgstr "سبک 12"
+
+#: elementor/widgets/bio_creative_link.php:104
+#: elementor/widgets/bio_promo_box.php:126 elementor/widgets/contact_bio.php:151
+#: elementor/widgets/socials_bio.php:151 elementor/widgets/socials_bio_2.php:151
+#: elementor/widgets/testimonials_bio.php:151
+#: elementor/widgets/testimonials_bio_2.php:151
+#: elementor/widgets/works_bio.php:151
+msgid "style 13"
+msgstr "سبک 13"
+
+#: elementor/widgets/bio_current_date.php:17
+msgid "Current Date"
+msgstr "تاریخ فعلی"
+
+#: elementor/widgets/bio_current_date.php:33
+#: elementor/widgets/bio_current_date.php:88
+#: elementor/widgets/bio_promo_box.php:36
+msgid "Content"
+msgstr "محتوا"
+
+#: elementor/widgets/bio_current_date.php:41
+msgid "Date Format"
+msgstr "فرمت تاریخ"
+
+#: elementor/widgets/bio_current_date.php:51
+#, php-format
+msgid "%s Date Format Documentation %s"
+msgstr "%s مستندات فرمت تاریخ %s"
+
+#: elementor/widgets/bio_faqs.php:14
+msgid "faqs"
+msgstr "پرسش های متداول"
+
+#: elementor/widgets/bio_faqs.php:29 elementor/widgets/bio_faqs.php:88
+msgid "questions"
+msgstr "سوال"
+
+#: elementor/widgets/bio_faqs.php:39 elementor/widgets/bio_faqs.php:102
+msgid "question"
+msgstr "سوال"
+
+#: elementor/widgets/bio_faqs.php:47 elementor/widgets/contact_bio.php:208
+#: elementor/widgets/contact_bio.php:342 elementor/widgets/socials_bio.php:200
+#: elementor/widgets/socials_bio.php:312 elementor/widgets/socials_bio.php:378
+#: elementor/widgets/socials_bio_2.php:200 elementor/widgets/works_bio.php:199
+#: elementor/widgets/works_bio.php:382
+msgid "first image"
+msgstr "تصویر اول"
+
+#: elementor/widgets/bio_faqs.php:55
+msgid "first Icon"
+msgstr "آیکون اول"
+
+#: elementor/widgets/bio_faqs.php:63
+msgid "open Icon"
+msgstr "آیکون باز کردن"
+
+#: elementor/widgets/bio_faqs.php:71
+msgid "close Icon"
+msgstr "آیکون بستن"
+
+#: elementor/widgets/bio_faqs.php:80
+msgid "answer"
+msgstr "جواب"
+
+#: elementor/widgets/bio_faqs.php:115
+msgid "answers"
+msgstr "جواب"
+
+#: elementor/widgets/bio_faqs.php:128
+msgid "box"
+msgstr "جعبه"
+
+#: elementor/widgets/bio_faqs.php:141
+msgid "icons"
+msgstr "آیکون ها"
+
+#: elementor/widgets/bio_faqs.php:149 elementor/widgets/contact_bio.php:320
+#: elementor/widgets/socials_bio.php:290 elementor/widgets/socials_bio.php:356
+#: elementor/widgets/socials_bio_3.php:260 elementor/widgets/works_bio.php:338
+msgid "first icon"
+msgstr "آیکون اول"
+
+#: elementor/widgets/bio_faqs.php:160
+msgid "sec icon container"
+msgstr "کانیتر آیکون دوم"
+
+#: elementor/widgets/bio_faqs.php:171 elementor/widgets/contact_bio.php:331
+#: elementor/widgets/socials_bio.php:301 elementor/widgets/socials_bio.php:367
+#: elementor/widgets/socials_bio_3.php:293 elementor/widgets/works_bio.php:371
+msgid "sec icon"
+msgstr "آیکون دوم"
+
+#: elementor/widgets/bio_faqs.php:182
+msgid "third icon container"
+msgstr "کانتینر آیکون سوم"
+
+#: elementor/widgets/bio_faqs.php:193
+msgid "third icon"
+msgstr "آـیکون سوم"
+
+#: elementor/widgets/bio_faqs.php:209 elementor/widgets/bio_promo_box.php:43
+#: elementor/widgets/bio_video_gallery.php:56
+#: elementor/widgets/bio_video_gallery.php:183
+#: elementor/widgets/bio_video_gallery.php:260 elementor/widgets/name_bio.php:45
+#: elementor/widgets/name_bio.php:132 elementor/widgets/name_bio_2.php:45
+#: elementor/widgets/name_bio_2.php:124 elementor/widgets/socials_bio_2.php:322
+#: elementor/widgets/testimonials_bio.php:216
+#: elementor/widgets/testimonials_bio.php:252
+#: elementor/widgets/testimonials_bio_2.php:216
+#: elementor/widgets/testimonials_bio_2.php:252
+msgid "image"
+msgstr "تصویر"
+
+#: elementor/widgets/bio_image_tab.php:14 elementor/widgets/bio_image_tab.php:29
+msgid "image tab"
+msgstr "تب تصویر"
+
+#: elementor/widgets/bio_image_tab.php:39
+msgid "Image"
+msgstr "تصویر"
+
+#: elementor/widgets/bio_image_tab.php:50 elementor/widgets/bio_image_tab.php:102
+#: elementor/widgets/bio_promo_box.php:68
+#: elementor/widgets/bio_video_gallery.php:161
+#: elementor/widgets/bio_video_gallery.php:238 elementor/widgets/name_bio.php:56
+#: elementor/widgets/name_bio_2.php:56 elementor/widgets/order_bio.php:45
+#: elementor/widgets/order_bio.php:88 elementor/widgets/order_bio.php:175
+msgid "title"
+msgstr "عنوان"
+
+#: elementor/widgets/bio_image_tab.php:61 elementor/widgets/bio_image_tab.php:111
+#: elementor/widgets/bio_video_gallery.php:48
+#: elementor/widgets/bio_video_gallery.php:172
+#: elementor/widgets/bio_video_gallery.php:249 elementor/widgets/name_bio.php:74
+#: elementor/widgets/name_bio_2.php:74 elementor/widgets/order_bio.php:70
+#: elementor/widgets/order_bio.php:147 elementor/widgets/testimonials_bio.php:200
+#: elementor/widgets/testimonials_bio.php:274
+#: elementor/widgets/testimonials_bio_2.php:200
+#: elementor/widgets/testimonials_bio_2.php:274
+#: elementor/widgets/testimonials_bio_2.php:285 inc/vcf_generator_fun.php:44
+#: inc/vcf_generator_fun.php:45
+msgid "description"
+msgstr "توصیف"
+
+#: elementor/widgets/bio_image_tab.php:88 elementor/widgets/order_bio.php:104
+msgid "items"
+msgstr "آیتم‌ها"
+
+#: elementor/widgets/bio_image_tab.php:133
+msgid "line"
+msgstr "خط"
+
+#: elementor/widgets/bio_image_tab.php:144 elementor/widgets/bio_share.php:244
+#: elementor/widgets/name_bio.php:118 elementor/widgets/name_bio_2.php:110
+#: elementor/widgets/order_bio.php:119
+msgid "container"
+msgstr "کانتینر"
+
+#: elementor/widgets/bio_plans.php:14 elementor/widgets/bio_plans.php:29
+msgid "plans"
+msgstr "پلن ها"
+
+#: elementor/widgets/bio_plans.php:50 elementor/widgets/bio_plans.php:269
+#: elementor/widgets/bio_plans.php:384
+msgid "attr name"
+msgstr "نام ویژگی"
+
+#: elementor/widgets/bio_plans.php:61
+msgid "attr icon"
+msgstr "ویژگی ایکن"
+
+#: elementor/widgets/bio_plans.php:72
+msgid "plan name"
+msgstr "نام پلن"
+
+#: elementor/widgets/bio_plans.php:83
+msgid "expert plan?"
+msgstr "پلن ویژه؟"
+
+#: elementor/widgets/bio_plans.php:98 elementor/widgets/bio_plans.php:225
+#: elementor/widgets/bio_plans.php:329
+msgid "plan price"
+msgstr "قیمت پلن"
+
+#: elementor/widgets/bio_plans.php:109
+msgid "postfix"
+msgstr "پسوند"
+
+#: elementor/widgets/bio_plans.php:120
+msgid "plan sec title"
+msgstr "عنوان دوم پلن"
+
+#: elementor/widgets/bio_plans.php:131
+msgid "attr count"
+msgstr "تعداد ویژگی"
+
+#: elementor/widgets/bio_plans.php:142
+msgid "show btn"
+msgstr "نمایش دکمه"
+
+#: elementor/widgets/bio_plans.php:158
+msgid "btn text"
+msgstr "متن دکمه"
+
+#: elementor/widgets/bio_plans.php:171
+msgid "btn link"
+msgstr "لینک دکمه"
+
+#: elementor/widgets/bio_plans.php:173 elementor/widgets/contact_bio.php:227
+#: elementor/widgets/socials_bio.php:219 elementor/widgets/socials_bio_2.php:242
+#: elementor/widgets/socials_bio_3.php:73 elementor/widgets/works_bio.php:226
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: elementor/widgets/bio_plans.php:188
+msgid "attrs"
+msgstr "ویژگی ها"
+
+#: elementor/widgets/bio_plans.php:204 elementor/widgets/bio_plans.php:258
+msgid "normal plan"
+msgstr "پلن معمولی"
+
+#: elementor/widgets/bio_plans.php:214 elementor/widgets/bio_plans.php:318
+msgid "plan price body"
+msgstr "بنده قیمت پلن"
+
+#: elementor/widgets/bio_plans.php:236 elementor/widgets/bio_plans.php:340
+msgid "unit plan"
+msgstr "واحد"
+
+#: elementor/widgets/bio_plans.php:247 elementor/widgets/bio_plans.php:351
+msgid "sec title"
+msgstr "عنوان دوم"
+
+#: elementor/widgets/bio_plans.php:280 elementor/widgets/bio_plans.php:395
+msgid "attr icon 1"
+msgstr "ویژگی ایکن 1"
+
+#: elementor/widgets/bio_plans.php:292 elementor/widgets/bio_plans.php:406
+msgid "attr icon 2"
+msgstr "ویژگی ایکن 2"
+
+#: elementor/widgets/bio_plans.php:308 elementor/widgets/bio_plans.php:362
+msgid "offer plan"
+msgstr "پلن پیشنهادی"
+
+#: elementor/widgets/bio_plans.php:373
+msgid "plan btn"
+msgstr "دکمه پلن"
+
+#: elementor/widgets/bio_promo_box.php:17
+msgid "Promo Box"
+msgstr "جعبه تبلیغاتی"
+
+#: elementor/widgets/bio_promo_box.php:102
+msgid "Promo Effects"
+msgstr "تأثیرات تبلیغ"
+
+#: elementor/widgets/bio_promo_box.php:110
+msgid "Promo Effect"
+msgstr "تأثیر تبلیغ"
+
+#: elementor/widgets/bio_promo_box.php:127 elementor/widgets/contact_bio.php:152
+#: elementor/widgets/socials_bio.php:152 elementor/widgets/socials_bio_2.php:152
+#: elementor/widgets/testimonials_bio.php:152
+#: elementor/widgets/testimonials_bio_2.php:152
+#: elementor/widgets/works_bio.php:152
+msgid "style 14"
+msgstr "سبک 14"
+
+#: elementor/widgets/bio_promo_box.php:128 elementor/widgets/contact_bio.php:153
+#: elementor/widgets/socials_bio.php:153 elementor/widgets/socials_bio_2.php:153
+#: elementor/widgets/testimonials_bio.php:153
+#: elementor/widgets/testimonials_bio_2.php:153
+#: elementor/widgets/works_bio.php:153
+msgid "style 15"
+msgstr "سبک 15"
+
+#: elementor/widgets/bio_promo_box.php:129 elementor/widgets/contact_bio.php:154
+#: elementor/widgets/socials_bio.php:154 elementor/widgets/socials_bio_2.php:154
+#: elementor/widgets/testimonials_bio.php:154
+#: elementor/widgets/testimonials_bio_2.php:154
+#: elementor/widgets/works_bio.php:154
+msgid "style 16"
+msgstr "سبک 16"
+
+#: elementor/widgets/bio_promo_box.php:143
+msgid "titles"
+msgstr "عناوین"
+
+#: elementor/widgets/bio_promo_box.php:151
+msgid "Heading"
+msgstr "عنوان"
+
+#: elementor/widgets/bio_search.php:17
+#: inc/ajax-search/includes/class-widget.php:72
+#: inc/ajax-search/includes/class-widget.php:175
+msgid "Search"
+msgstr "جستجو"
+
+#: elementor/widgets/bio_share.php:19
+msgid "page share"
+msgstr "اشتراک گذاری صفحه"
+
+#: elementor/widgets/bio_share.php:60
+msgid "telegram"
+msgstr "تلگرام"
+
+#: elementor/widgets/bio_share.php:69
+msgid "whatsapp"
+msgstr "واتس اپ"
+
+#: elementor/widgets/bio_share.php:78
+msgid "twitter"
+msgstr "توییتر"
+
+#: elementor/widgets/bio_share.php:87 inc/vcf_generator_fun.php:36
+#: inc/vcf_generator_fun.php:37
+msgid "email"
+msgstr "ایمیل"
+
+#: elementor/widgets/bio_share.php:96
+msgid "facebook"
+msgstr "فیس بوک"
+
+#: elementor/widgets/bio_share.php:105
+msgid "linkedin"
+msgstr "لینکدین"
+
+#: elementor/widgets/bio_share.php:114
+msgid "pinterest"
+msgstr "پینترست"
+
+#: elementor/widgets/bio_share.php:254
+msgid "social icon"
+msgstr "آیکون شبکه های اجتمائی"
+
+#: elementor/widgets/bio_tag_cloud.php:17
+msgid "Tag cloud"
+msgstr "ابر برچسب‌ها"
+
+#: elementor/widgets/bio_tag_cloud.php:44 elementor/widgets/contact_bio.php:60
+#: elementor/widgets/socials_bio.php:60 elementor/widgets/socials_bio_2.php:60
+#: elementor/widgets/testimonials_bio.php:60
+#: elementor/widgets/testimonials_bio_2.php:60 elementor/widgets/works_bio.php:60
+msgid "Columns"
+msgstr "ستون ها"
+
+#: elementor/widgets/bio_tag_cloud.php:65 elementor/widgets/contact_bio.php:85
+#: elementor/widgets/socials_bio.php:85 elementor/widgets/socials_bio_2.php:85
+#: elementor/widgets/testimonials_bio.php:85
+#: elementor/widgets/testimonials_bio_2.php:85 elementor/widgets/works_bio.php:85
+msgid "Column Gap"
+msgstr "فاصله ستون ها"
+
+#: elementor/widgets/bio_tag_cloud.php:79
+msgid "Item Height(px)"
+msgstr "ارتفاع مورد (پیکسل)"
+
+#: elementor/widgets/bio_tag_cloud.php:125
+msgid "Show Count"
+msgstr "نمایش تعداد"
+
+#: elementor/widgets/bio_tag_cloud.php:183 elementor/widgets/contact_bio.php:200
+#: elementor/widgets/order_bio.php:96 elementor/widgets/socials_bio.php:192
+#: elementor/widgets/socials_bio_2.php:192 elementor/widgets/socials_bio_3.php:46
+#: elementor/widgets/works_bio.php:191
+msgid "Icon"
+msgstr "آیکون"
+
+#: elementor/widgets/bio_tag_cloud.php:248
+msgid "Items"
+msgstr "آیتم‌ها"
+
+#: elementor/widgets/bio_tag_cloud.php:265
+msgid "Single Background"
+msgstr "پس‌زمینه تکی"
+
+#: elementor/widgets/bio_tag_cloud.php:285
+msgid "Multiple Background"
+msgstr "پس‌زمینه چندگانه"
+
+#: elementor/widgets/bio_tag_cloud.php:460
+msgid "Count"
+msgstr "تعداد"
+
+#: elementor/widgets/bio_tag_cloud.php:561
+msgid "Category Not Found!"
+msgstr "دسته بندی یافت نشد!"
+
+#: elementor/widgets/bio_video.php:21
+msgid "bio video"
+msgstr "ویدیو بایو"
+
+#: elementor/widgets/bio_video.php:36 elementor/widgets/bio_video.php:57
+#: elementor/widgets/bio_video_gallery.php:86
+msgid "video"
+msgstr "ویدیو"
+
+#: elementor/widgets/bio_video.php:45
+msgid "poster"
+msgstr "پوستر"
+
+#: elementor/widgets/bio_video_gallery.php:16
+msgid "video gallery"
+msgstr "ویدئو گالری"
+
+#: elementor/widgets/bio_video_gallery.php:31
+#: elementor/widgets/bio_video_gallery.php:114
+msgid "videos"
+msgstr "ویدیو ها"
+
+#: elementor/widgets/bio_video_gallery.php:67
+msgid "pooster"
+msgstr "پوستر"
+
+#: elementor/widgets/bio_video_gallery.php:98
+msgid "Icon 1"
+msgstr "آیکون 1"
+
+#: elementor/widgets/bio_video_gallery.php:106
+#: elementor/widgets/contact_bio.php:245 elementor/widgets/socials_bio.php:229
+#: elementor/widgets/socials_bio_2.php:224 elementor/widgets/socials_bio_3.php:98
+#: elementor/widgets/works_bio.php:252
+msgid "Icon 2"
+msgstr "آیکون 2"
+
+#: elementor/widgets/bio_video_gallery.php:128
+msgid "tabs"
+msgstr "تب ها"
+
+#: elementor/widgets/bio_video_gallery.php:149
+#: elementor/widgets/bio_video_gallery.php:227
+msgid "tab container"
+msgstr "کانتینر تب"
+
+#: elementor/widgets/bio_video_gallery.php:194
+msgid "icon-1"
+msgstr "آـیکون 1"
+
+#: elementor/widgets/bio_video_gallery.php:205
+msgid "icon-2"
+msgstr "آـیکون 2"
+
+#: elementor/widgets/bio_video_gallery.php:218
+msgid "active"
+msgstr "فعال"
+
+#: elementor/widgets/bio_video_gallery.php:271
+msgid "icon-1 active"
+msgstr "ایکون 1 فعال"
+
+#: elementor/widgets/bio_video_gallery.php:282
+msgid "icon-2 active"
+msgstr "ایکون 2 فعال"
+
+#: elementor/widgets/bio_video_gallery.php:302
+msgid "tabs container"
+msgstr "کانتینر تب ها"
+
+#: elementor/widgets/bio_video_gallery.php:312
+msgid "fade top"
+msgstr "محو بالا"
+
+#: elementor/widgets/bio_video_gallery.php:323
+msgid "fade buttom"
+msgstr "محو پایین"
+
+#: elementor/widgets/contact_bio.php:23
+msgid "contact me"
+msgstr "تماس با من"
+
+#: elementor/widgets/contact_bio.php:50 elementor/widgets/socials_bio.php:50
+#: elementor/widgets/socials_bio_2.php:50
+#: elementor/widgets/testimonials_bio.php:50
+#: elementor/widgets/testimonials_bio_2.php:50 elementor/widgets/works_bio.php:50
+msgid "Grid"
+msgstr "شبکه"
+
+#: elementor/widgets/contact_bio.php:51 elementor/widgets/socials_bio.php:51
+#: elementor/widgets/socials_bio_2.php:51
+#: elementor/widgets/testimonials_bio.php:51
+#: elementor/widgets/testimonials_bio_2.php:51 elementor/widgets/works_bio.php:51
+msgid "Carousel"
+msgstr "کاروسل"
+
+#: elementor/widgets/contact_bio.php:110 elementor/widgets/socials_bio.php:110
+#: elementor/widgets/socials_bio_2.php:110
+#: elementor/widgets/testimonials_bio.php:110
+#: elementor/widgets/testimonials_bio_2.php:110
+#: elementor/widgets/works_bio.php:110
+msgid "Row Gap"
+msgstr "فاصله سطر ها"
+
+#: elementor/widgets/contact_bio.php:138 elementor/widgets/socials_bio.php:138
+#: elementor/widgets/socials_bio_2.php:138
+#: elementor/widgets/testimonials_bio.php:138
+#: elementor/widgets/testimonials_bio_2.php:138
+#: elementor/widgets/works_bio.php:138
+msgid " "
+msgstr " "
+
+#: elementor/widgets/contact_bio.php:155 elementor/widgets/socials_bio.php:155
+#: elementor/widgets/socials_bio_2.php:155
+#: elementor/widgets/testimonials_bio.php:155
+#: elementor/widgets/testimonials_bio_2.php:155
+#: elementor/widgets/works_bio.php:155
+msgid "style 17"
+msgstr "سبک 17"
+
+#: elementor/widgets/contact_bio.php:156 elementor/widgets/socials_bio.php:156
+#: elementor/widgets/socials_bio_2.php:156
+#: elementor/widgets/testimonials_bio.php:156
+#: elementor/widgets/testimonials_bio_2.php:156
+#: elementor/widgets/works_bio.php:156
+msgid "style 18"
+msgstr "سبک 18"
+
+#: elementor/widgets/contact_bio.php:157 elementor/widgets/socials_bio.php:157
+#: elementor/widgets/socials_bio_2.php:157
+#: elementor/widgets/testimonials_bio.php:157
+#: elementor/widgets/testimonials_bio_2.php:157
+#: elementor/widgets/works_bio.php:157
+msgid "style 19"
+msgstr "سبک 19"
+
+#: elementor/widgets/contact_bio.php:158 elementor/widgets/socials_bio.php:158
+#: elementor/widgets/socials_bio_2.php:158
+#: elementor/widgets/testimonials_bio.php:158
+#: elementor/widgets/testimonials_bio_2.php:158
+#: elementor/widgets/works_bio.php:158
+msgid "style 20"
+msgstr "سبک 20"
+
+#: elementor/widgets/contact_bio.php:159 elementor/widgets/socials_bio.php:159
+#: elementor/widgets/socials_bio_2.php:159
+#: elementor/widgets/testimonials_bio.php:159
+#: elementor/widgets/testimonials_bio_2.php:159
+#: elementor/widgets/works_bio.php:159
+msgid "style 21"
+msgstr "سبک 21"
+
+#: elementor/widgets/contact_bio.php:160 elementor/widgets/socials_bio.php:160
+#: elementor/widgets/socials_bio_2.php:160
+#: elementor/widgets/testimonials_bio.php:160
+#: elementor/widgets/testimonials_bio_2.php:160
+#: elementor/widgets/works_bio.php:160
+msgid "style 22"
+msgstr "سبک 22"
+
+#: elementor/widgets/contact_bio.php:161 elementor/widgets/socials_bio.php:161
+#: elementor/widgets/socials_bio_2.php:161
+#: elementor/widgets/testimonials_bio.php:161
+#: elementor/widgets/testimonials_bio_2.php:161
+#: elementor/widgets/works_bio.php:161
+msgid "style 23"
+msgstr "سبک 23"
+
+#: elementor/widgets/contact_bio.php:162 elementor/widgets/socials_bio.php:162
+#: elementor/widgets/socials_bio_2.php:162
+#: elementor/widgets/testimonials_bio.php:162
+#: elementor/widgets/testimonials_bio_2.php:162
+#: elementor/widgets/works_bio.php:162
+msgid "style 24"
+msgstr "سبک 24"
+
+#: elementor/widgets/contact_bio.php:163 elementor/widgets/socials_bio.php:163
+#: elementor/widgets/socials_bio_2.php:163
+#: elementor/widgets/testimonials_bio.php:163
+#: elementor/widgets/testimonials_bio_2.php:163
+#: elementor/widgets/works_bio.php:163
+msgid "style 25"
+msgstr "سبک 25"
+
+#: elementor/widgets/contact_bio.php:164 elementor/widgets/socials_bio.php:164
+#: elementor/widgets/socials_bio_2.php:164
+#: elementor/widgets/testimonials_bio.php:164
+#: elementor/widgets/testimonials_bio_2.php:164
+#: elementor/widgets/works_bio.php:164
+msgid "style 26"
+msgstr "سبک 26"
+
+#: elementor/widgets/contact_bio.php:165 elementor/widgets/socials_bio.php:165
+#: elementor/widgets/socials_bio_2.php:165
+#: elementor/widgets/testimonials_bio.php:165
+#: elementor/widgets/testimonials_bio_2.php:165
+#: elementor/widgets/works_bio.php:165
+msgid "style 27"
+msgstr "سبک 27"
+
+#: elementor/widgets/contact_bio.php:166 elementor/widgets/socials_bio.php:166
+#: elementor/widgets/socials_bio_2.php:166
+#: elementor/widgets/testimonials_bio.php:166
+#: elementor/widgets/testimonials_bio_2.php:166
+#: elementor/widgets/works_bio.php:166
+msgid "style 28"
+msgstr "سبک 28"
+
+#: elementor/widgets/contact_bio.php:167 elementor/widgets/socials_bio.php:167
+#: elementor/widgets/socials_bio_2.php:167
+#: elementor/widgets/testimonials_bio.php:167
+#: elementor/widgets/testimonials_bio_2.php:167
+#: elementor/widgets/works_bio.php:167
+msgid "style 29"
+msgstr "سبک 29"
+
+#: elementor/widgets/contact_bio.php:168 elementor/widgets/socials_bio.php:168
+#: elementor/widgets/socials_bio_2.php:168
+#: elementor/widgets/testimonials_bio.php:168
+#: elementor/widgets/testimonials_bio_2.php:168
+#: elementor/widgets/works_bio.php:168
+msgid "style 30"
+msgstr "سبک 30"
+
+#: elementor/widgets/contact_bio.php:181 elementor/widgets/contact_bio.php:261
+#: elementor/widgets/socials_bio.php:23 elementor/widgets/socials_bio.php:181
+#: elementor/widgets/socials_bio.php:245 elementor/widgets/socials_bio_2.php:181
+#: elementor/widgets/socials_bio_2.php:252 elementor/widgets/socials_bio_3.php:106
+msgid "socials"
+msgstr "شبکه های اجتمائی"
+
+#: elementor/widgets/contact_bio.php:191 elementor/widgets/contact_bio.php:287
+msgid "Title top"
+msgstr "عنوان بالا"
+
+#: elementor/widgets/contact_bio.php:237 elementor/widgets/contact_bio.php:309
+#: elementor/widgets/socials_bio_2.php:216 elementor/widgets/socials_bio_3.php:83
+#: elementor/widgets/works_bio.php:236
+msgid "Title 2"
+msgstr "پارت 2"
+
+#: elementor/widgets/contact_bio.php:253 elementor/widgets/contact_bio.php:353
+#: elementor/widgets/socials_bio.php:237 elementor/widgets/socials_bio.php:323
+#: elementor/widgets/socials_bio.php:389 elementor/widgets/socials_bio_2.php:232
+#: elementor/widgets/socials_bio_2.php:334 elementor/widgets/works_bio.php:260
+#: elementor/widgets/works_bio.php:393
+msgid "sec image"
+msgstr "عکس دوم"
+
+#: elementor/widgets/contact_bio.php:276 elementor/widgets/socials_bio.php:260
+#: elementor/widgets/socials_bio_2.php:267 elementor/widgets/socials_bio_3.php:205
+#: elementor/widgets/works_bio.php:283
+msgid "link style"
+msgstr "استایل لینک"
+
+#: elementor/widgets/map_bio.php:21 elementor/widgets/map_bio.php:36
+msgid "map"
+msgstr "نقشه"
+
+#: elementor/widgets/map_bio.php:44
+msgid "address limk"
+msgstr "لینک آدرس"
+
+#: elementor/widgets/name_bio.php:58 elementor/widgets/name_bio.php:67
+#: elementor/widgets/name_bio_2.php:58 elementor/widgets/name_bio_2.php:67
+#: elementor/widgets/order_bio.php:47
+msgid "inter your text"
+msgstr "متن خود را وارد کنید"
+
+#: elementor/widgets/name_bio.php:65 elementor/widgets/name_bio_2.php:65
+msgid "title 2"
+msgstr "عنوان 2"
+
+#: elementor/widgets/name_bio.php:98
+msgid "Button image"
+msgstr "تصویر دکمه"
+
+#: elementor/widgets/name_bio.php:146 elementor/widgets/name_bio_2.php:138
+msgid "name container"
+msgstr "کانتینر نام"
+
+#: elementor/widgets/name_bio.php:174 elementor/widgets/name_bio_2.php:166
+msgid "name detail"
+msgstr "جزئیات نام"
+
+#: elementor/widgets/name_bio.php:188 elementor/widgets/name_bio_2.php:180
+msgid "resume text"
+msgstr "متن رزومه"
+
+#: elementor/widgets/name_bio.php:213 elementor/widgets/name_bio_2.php:21
+#: elementor/widgets/name_bio_2.php:205 elementor/widgets/socials_bio_2.php:289
+#: elementor/widgets/socials_bio_3.php:271 elementor/widgets/works_bio.php:349
+msgid "name 2"
+msgstr "نام 2"
+
+#: elementor/widgets/name_bio.php:227
+msgid "btn image"
+msgstr "تصویر دکمه"
+
+#: elementor/widgets/order_bio.php:21
+msgid "set order"
+msgstr "ثبت سفارش"
+
+#: elementor/widgets/order_bio.php:37
+msgid "content"
+msgstr "محتوا"
+
+#: elementor/widgets/order_bio.php:54
+msgid "top Icon"
+msgstr "آیکون بالا"
+
+#: elementor/widgets/order_bio.php:62 elementor/widgets/order_bio.php:267
+msgid "top image"
+msgstr "تصویر بالا"
+
+#: elementor/widgets/order_bio.php:80 elementor/widgets/order_bio.php:217
+msgid "item title"
+msgstr "عنوان ایتم"
+
+#: elementor/widgets/order_bio.php:133
+msgid "top title"
+msgstr "عنوان:بالا"
+
+#: elementor/widgets/order_bio.php:161
+msgid "item"
+msgstr "آیتم"
+
+#: elementor/widgets/order_bio.php:203
+msgid "top icon"
+msgstr "آیکون بالا"
+
+#: elementor/widgets/order_bio.php:231
+msgid "separator"
+msgstr "جداکننده"
+
+#: elementor/widgets/order_bio.php:241
+msgid "description sep"
+msgstr "جداکننده توصیف"
+
+#: elementor/widgets/order_bio.php:252
+msgid "item sep"
+msgstr "جداکننده ایتم ها"
+
+#: elementor/widgets/save_vcf_bio.php:21 elementor/widgets/save_vcf_bio.php:35
+msgid "save contanct"
+msgstr "ذخیره مخاطب"
+
+#: elementor/widgets/save_vcf_bio.php:51
+msgid "choose file"
+msgstr "انتخاب فایل"
+
+#: elementor/widgets/socials_bio_2.php:23
+msgid "socials 2"
+msgstr "سبک 2"
+
+#: elementor/widgets/socials_bio_2.php:311
+msgid "icon 2"
+msgstr "آیکون 2"
+
+#: elementor/widgets/socials_bio_3.php:17
+msgid "social 3"
+msgstr "شبکه های اجتماعی 3"
+
+#: elementor/widgets/socials_bio_3.php:36
+msgid "social"
+msgstr "اجتماعی"
+
+#: elementor/widgets/socials_bio_3.php:62 elementor/widgets/works_bio.php:215
+msgid "sub Title"
+msgstr "زیر عنوان"
+
+#: elementor/widgets/socials_bio_3.php:91 elementor/widgets/works_bio.php:244
+msgid "sub Title 2"
+msgstr "زیر عنوان 2"
+
+#: elementor/widgets/socials_bio_3.php:129
+msgid "delay"
+msgstr "تاخیر"
+
+#: elementor/widgets/socials_bio_3.php:141
+msgid "lazy"
+msgstr "لیزی"
+
+#: elementor/widgets/socials_bio_3.php:153
+msgid "navigation"
+msgstr "ناو بری"
+
+#: elementor/widgets/socials_bio_3.php:189
+msgid "space Between"
+msgstr "فاصله بین"
+
+#: elementor/widgets/socials_bio_3.php:216 elementor/widgets/works_bio.php:294
+msgid "part 1"
+msgstr "پارت 1"
+
+#: elementor/widgets/socials_bio_3.php:227 elementor/widgets/works_bio.php:305
+msgid "part 2"
+msgstr "پارت 2"
+
+#: elementor/widgets/socials_bio_3.php:249 elementor/widgets/works_bio.php:327
+msgid "sub name"
+msgstr "زیر نام"
+
+#: elementor/widgets/socials_bio_3.php:282 elementor/widgets/works_bio.php:360
+msgid "sub name 2"
+msgstr "زیر نام 2"
+
+#: elementor/widgets/socials_bio_3.php:308
+msgid "navigition style"
+msgstr "استایل ناوبری"
+
+#: elementor/widgets/testimonials_bio.php:23
+#: elementor/widgets/testimonials_bio.php:182
+#: elementor/widgets/testimonials_bio_2.php:182
+msgid "testimonials"
+msgstr "نظرات"
+
+#: elementor/widgets/testimonials_bio.php:208
+#: elementor/widgets/testimonials_bio_2.php:208
+msgid "comment"
+msgstr "نظرات"
+
+#: elementor/widgets/testimonials_bio.php:227
+#: elementor/widgets/testimonials_bio_2.php:227
+msgid "comments"
+msgstr "نظر"
+
+#: elementor/widgets/testimonials_bio_2.php:23
+msgid "testimonials 2"
+msgstr "نظرات 2"
+
+#: elementor/widgets/timer_bio.php:21
+msgid "countre down"
+msgstr "شمارش معکوس"
+
+#: elementor/widgets/timer_bio.php:43
+msgid "choose data"
+msgstr "انتخاب تاریخ"
+
+#: elementor/widgets/timer_bio.php:65
+msgid "number"
+msgstr "عدد"
+
+#: elementor/widgets/works_bio.php:23 elementor/widgets/works_bio.php:181
+#: elementor/widgets/works_bio.php:268
+msgid "works"
+msgstr "نمونه کار ها"
+
+#: inc/ajax-search/includes/class-form.php:226
+msgid "No valid SearchWP Live Search configuration found!"
+msgstr "هیچ پیکربندی معتبر SearchWP Live Search پیدا نشد!"
+
+#: inc/ajax-search/includes/class-form.php:227
+msgid ""
+"When autocomplete results are available use up and down arrows to review and "
+"enter to go to the desired page. Touch device users, explore by touch or with "
+"swipe gestures."
+msgstr ""
+"هنگامی که نتایج تکمیل خودکار در دسترس هستند، از فلش های بالا و پایین برای مرور "
+"و ورود برای رفتن به صفحه مورد نظر استفاده کنید. کاربران دستگاه را لمس کنید، با "
+"لمس یا با حرکات کشیدن انگشت کاوش کنید."
+
+#: inc/ajax-search/includes/class-form.php:310
+msgid "Continue typing"
+msgstr "به تایپ کردن ادامه دهید"
+
+#: inc/ajax-search/includes/class-menu.php:52
+#: inc/ajax-search/includes/class-menu.php:84
+msgid "Live Search"
+msgstr "جستجو ایجکس"
+
+#: inc/ajax-search/includes/class-menu.php:67
+msgid "SearchWP"
+msgstr "SearchWP"
+
+#: inc/ajax-search/includes/class-menu.php:100
+#: inc/ajax-search/includes/class-menu.php:101
+msgid "Upgrade to Pro"
+msgstr "ارتقا به نسخه پرو"
+
+#. translators: %1$s - SearchWP.com URL, %2$s - SearchWP.com URL.
+#: inc/ajax-search/includes/class-plugin.php:157
+#, php-format
+msgid ""
+"<strong>SearchWP Live Ajax Search</strong><br><a href=\"%1$s\" target=\"_blank"
+"\" rel=\"noopener noreferrer\">Personalize your search results</a> and discover "
+"what your visitors are searching for at the same time with <a href=\"%2$s\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">SearchWP Pro!</a>"
+msgstr ""
+"<strong>SearchWP Live Ajax Search</strong><br><a href=\"%1$s\" target=\"_blank"
+"\" rel=\"noopener noreferrer\">نتایج جستجوی خود را شخصی کنید</a> و ببینید "
+"بازدیدکنندگان شما چه هستند جستجوی همزمان با <a href=\"%2$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">SearchWP Pro!</a>"
+
+#: inc/ajax-search/includes/class-plugin.php:226
+msgid "Upgrade to SearchWP Pro"
+msgstr "ارتقا به نسخه پرو"
+
+#: inc/ajax-search/includes/class-plugin.php:227
+msgid "Get SearchWP Pro"
+msgstr "SearchWP Pro دریافت کنید"
+
+#: inc/ajax-search/includes/class-plugin.php:239
+msgid "Go to SearchWP Settings page"
+msgstr "به صفحه تنظیمات SearchWP بروید"
+
+#: inc/ajax-search/includes/class-plugin.php:256
+msgid "Read the documentation"
+msgstr "مستندات را بخوانید"
+
+#: inc/ajax-search/includes/class-plugin.php:257
+msgid "Docs"
+msgstr "اسناد"
+
+#: inc/ajax-search/includes/class-settings-api.php:84
+msgid "Settings were successfully saved."
+msgstr "تنظیمات با موفقیت ذخیره شد."
+
+#: inc/ajax-search/includes/class-settings-api.php:165
+msgid "General"
+msgstr "عمومی"
+
+#: inc/ajax-search/includes/class-settings-api.php:171
+msgid "Enable Live Search"
+msgstr "فعال سازی جستجو ایجکس"
+
+#: inc/ajax-search/includes/class-settings-api.php:172
+msgid ""
+"Check this option to automatically enhance your search forms with Live Ajax "
+"Search."
+msgstr ""
+"این گزینه را علامت بزنید تا به طور خودکار فرم های جستجوی خود را با جستجوی Live "
+"Ajax تقویت کنید."
+
+#: inc/ajax-search/includes/class-settings-api.php:179
+msgid "Results"
+msgstr "نتایج"
+
+#: inc/ajax-search/includes/class-settings-api.php:185
+msgid "Include Styling"
+msgstr "شامل استایلینگ"
+
+#: inc/ajax-search/includes/class-settings-api.php:186
+msgid ""
+"Determines which CSS files to load and use for the site. \"Positioning and "
+"visual styling\" is recommended, unless you are experienced with CSS or "
+"instructed by support to change settings."
+msgstr ""
+"تعیین می کند که کدام فایل های CSS برای سایت بارگیری و استفاده شود. \"موقعیت "
+"یابی و استایل بصری\" توصیه می شود، مگر اینکه با CSS تجربه داشته باشید یا توسط "
+"پشتیبانی برای تغییر تنظیمات دستور داده باشید."
+
+#: inc/ajax-search/includes/class-settings-api.php:190
+msgid "Positioning and visual styling"
+msgstr "موقعیت یابی و استایل بصری"
+
+#: inc/ajax-search/includes/class-settings-api.php:191
+msgid "Positioning styling only"
+msgstr "فقط یک ظاهر طراحی موقعیت"
+
+#: inc/ajax-search/includes/class-settings-api.php:192
+msgid "No styling"
+msgstr "بدون طراحی ظاهر"
+
+#: inc/ajax-search/includes/class-settings-api.php:197
+msgid "Positioning"
+msgstr "تثبیت موقعیت"
+
+#: inc/ajax-search/includes/class-settings-api.php:198
+msgid "Selects where to position the results pane relative to the search form."
+msgstr "محل قرارگیری پنجره نتایج را نسبت به فرم جستجو انتخاب می کند."
+
+#: inc/ajax-search/includes/class-settings-api.php:202
+msgid "Below the search form"
+msgstr "پایین فرم جستجو"
+
+#: inc/ajax-search/includes/class-settings-api.php:203
+msgid "Above the search form"
+msgstr "بالای فرم جستجو"
+
+#: inc/ajax-search/includes/class-settings-api.php:208
+msgid "Auto Width"
+msgstr "عرض خودکار"
+
+#: inc/ajax-search/includes/class-settings-api.php:209
+msgid ""
+"Check this option to align the results pane width with the search form width."
+msgstr "این گزینه را علامت بزنید تا عرض صفحه نتایج با عرض فرم جستجو تراز شود."
+
+#: inc/ajax-search/includes/class-settings.php:164
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+#: inc/ajax-search/includes/class-settings.php:383
+msgid "Get SearchWP Pro and Unlock all the Powerful Features"
+msgstr "SearchWP Pro را دریافت کنید و تمام ویژگی های قدرتمند را باز کنید"
+
+#: inc/ajax-search/includes/class-settings.php:384
+msgid ""
+"Thank you for being a loyal SearchWP Live Ajax Search user. Upgrade to SearchWP "
+"Pro to unlock all the powerful features and experience why SearchWP is the best "
+"WordPress search plugin."
+msgstr ""
+"از اینکه یک کاربر وفادار SearchWP Live Ajax Search هستید متشکریم. به SearchWP "
+"Pro ارتقا دهید تا همه ویژگی های قدرتمند را باز کنید و تجربه کنید که چرا "
+"SearchWP بهترین افزونه جستجوی وردپرس است."
+
+#. translators: %s - star icons.
+#: inc/ajax-search/includes/class-settings.php:389
+#, php-format
+msgid ""
+"We know that you will truly love SearchWP Pro. It’s used on over 30,000 smart "
+"WordPress websites and is consistently rated 5-stars (%s) by our customers."
+msgstr ""
+"ما می دانیم که شما واقعاً SearchWP Pro را دوست خواهید داشت. در بیش از 30000 وب "
+"سایت هوشمند وردپرس استفاده می شود و به طور مداوم توسط مشتریان ما 5 ستاره (%s) "
+"رتبه بندی می شود."
+
+#: inc/ajax-search/includes/class-settings.php:401
+msgid "Pro Features:"
+msgstr "ویژگی های حرفه ای:"
+
+#: inc/ajax-search/includes/class-settings.php:404
+msgid "Search all custom field data"
+msgstr "همه داده های فیلد سفارشی را جستجو کنید"
+
+#: inc/ajax-search/includes/class-settings.php:405
+msgid "Make ecommerce metadata discoverable in search results"
+msgstr "ابرداده های تجارت الکترونیک را در نتایج جستجو قابل کشف کنید"
+
+#: inc/ajax-search/includes/class-settings.php:406
+msgid "Search PDF, .doc, .txt and other static documents"
+msgstr "جستجوی PDF، .doc، .txt و سایر اسناد ثابت"
+
+#: inc/ajax-search/includes/class-settings.php:407
+msgid "Search custom database tables and other custom content"
+msgstr "جداول پایگاه داده سفارشی و سایر محتوای سفارشی را جستجو کنید"
+
+#: inc/ajax-search/includes/class-settings.php:408
+msgid "Make your media library (images, videos, etc.) searchable"
+msgstr "کتابخانه رسانه خود (تصاویر، ویدیوها و غیره) را قابل جستجو کنید"
+
+#: inc/ajax-search/includes/class-settings.php:411
+msgid "Search categories, tags and even custom taxonomies"
+msgstr "دسته ها، برچسب ها و حتی طبقه بندی های سفارشی را جستجو کنید"
+
+#: inc/ajax-search/includes/class-settings.php:412
+msgid "Easy integration with all WordPress themes and page builders"
+msgstr "ادغام آسان با تمام تم های وردپرس و صفحه سازها"
+
+#: inc/ajax-search/includes/class-settings.php:413
+msgid "Advanced search metrics and insights on visitor activity"
+msgstr "معیارهای جستجوی پیشرفته و بینش در مورد فعالیت بازدیدکنندگان"
+
+#: inc/ajax-search/includes/class-settings.php:414
+msgid "Multiple custom search engines for different types of content"
+msgstr "چندین موتور جستجوی سفارشی برای انواع مختلف محتوا"
+
+#: inc/ajax-search/includes/class-settings.php:415
+msgid "WooCommerce & Easy Digital Downloads support"
+msgstr "پشتیبانی ووکامرس و Easy Digital Downloads"
+
+#: inc/ajax-search/includes/class-settings.php:418
+#: inc/ajax-search/includes/class-settings.php:522
+msgid "Get SearchWP Pro Today"
+msgstr "SearchWP Pro را امروز دریافت کنید"
+
+#: inc/ajax-search/includes/class-settings.php:418
+msgid "Get SearchWP Pro Today and Unlock all the Powerful Features"
+msgstr "SearchWP Pro را امروز دریافت کنید و تمام ویژگی های قدرتمند را باز کنید"
+
+#: inc/ajax-search/includes/class-settings.php:422
+#: inc/ajax-search/includes/class-settings.php:526
+#, php-format
+msgid ""
+"<strong>Bonus:</strong> SearchWP Live Ajax Search users get <span class=\"green"
+"\">50% off the regular price</span>, automatically applied at checkout!"
+msgstr ""
+"<strong>Bonus:</strong> SearchWP Live Ajax Search users get <span class=\"green"
+"\">50% off the regular price</span>, automatically applied at checkout!"
+
+#. translators: $1$s - SearchWP plugin name; $2$s - WP.org review link; $3$s - WP.org review link.
+#: inc/ajax-search/includes/class-settings.php:458
+#, php-format
+msgid ""
+"Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" target=\"_blank"
+"\" rel=\"noopener\">WordPress.org</a> to help us spread the word. Thank you "
+"from the SearchWP team!"
+msgstr ""
+"لطفاً %1$s را رتبه بندی کنید <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</ a> در <a href=\"%3$s\" "
+"target=\"_blank\" rel=\"noopener\">WordPress.org</a> برای کمک به ما در انتشار "
+"این خبر. از تیم SearchWP متشکریم!"
+
+#: inc/ajax-search/includes/class-settings.php:509
+msgid "Did You Know?"
+msgstr "آیا میدانستید؟"
+
+#: inc/ajax-search/includes/class-settings.php:513
+msgid ""
+"By default, WordPress doesn’t make all your content searchable. "
+"<strong><em>That’s frustrating</em></strong>, because it leaves your visitors "
+"unable to find what they are looking for!"
+msgstr ""
+"به طور پیش فرض، وردپرس تمام محتوای شما را قابل جستجو نمی کند. <strong><em>این "
+"ناامیدکننده است</em></strong>، زیرا باعث می‌شود بازدیدکنندگان شما نتوانند آنچه "
+"را که به دنبال آن هستند بیابند!"
+
+#: inc/ajax-search/includes/class-settings.php:521
+msgid ""
+"With SearchWP Pro, you can overcome this obstacle and deliver the best, most "
+"relevant search results based on all your content, such as custom fields, "
+"ecommerce data, categories, PDF documents, rich media and more!"
+msgstr ""
+"با SearchWP Pro، می‌توانید بر این مانع غلبه کنید و بهترین و مرتبط‌ترین نتایج "
+"جستجو را بر اساس تمام محتوای خود، مانند فیلدهای سفارشی، داده‌های تجارت "
+"الکترونیک، دسته‌ها، اسناد PDF، رسانه‌های غنی و موارد دیگر ارائه دهید!"
+
+#: inc/ajax-search/includes/class-widget.php:26
+#: inc/ajax-search/includes/class-widget.php:27
+msgid "SearchWP Live Search"
+msgstr "جستو زنده SearchWP"
+
+#: inc/ajax-search/includes/class-widget.php:46
+#: inc/ajax-search/includes/class-widget.php:249
+msgid "Search for..."
+msgstr "جستجو برای ..."
+
+#: inc/ajax-search/includes/class-widget.php:68
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+#: inc/ajax-search/includes/class-widget.php:179
+msgid "Title:"
+msgstr "عنوان:"
+
+#: inc/ajax-search/includes/class-widget.php:204
+msgid "SearchWP Engine:"
+msgstr "موتور SearchWP :"
+
+#: inc/ajax-search/includes/class-widget.php:230
+msgid "Configuration:"
+msgstr "پیکربندی:"
+
+#: inc/ajax-search/includes/class-widget.php:255
+msgid "Advanced"
+msgstr "حالت پیشرفته"
+
+#: inc/ajax-search/includes/class-widget.php:258
+msgid "Placeholder:"
+msgstr "نگهدارنده:"
+
+#: inc/ajax-search/includes/class-widget.php:262
+msgid "Destination fallback URL (optional):"
+msgstr "URL بازگشتی مقصد (اختیاری):"
+
+#: inc/ajax-search/templates/search-results.php:54
+msgid "No results found."
+msgstr "هیچ نتیجه ای یافت نشد."
+
+#: inc/bio_our_products_page.php:28 inc/bio_our_products_page.php:31
+msgid ""
+"It is not possible to connect to the server and receiving the information of "
+"our other products has encountered an error. Please try again later"
+msgstr ""
+"امکان ارتباط با سرور وجود ندارد و دریافت اطلاعات سایر محصولات ما با خطا مواجه "
+"شده لطفا کمی بعد دوباره تلاش کنید"
+
+#: inc/demos.php:7
+msgid "Import demo successfully completed."
+msgstr "درون ریزی دمو با موفقیت انجام شد."
+
+#: inc/demos.php:8
+msgid "View Imported Page"
+msgstr "مشاهده صفحه درون ریزی شده"
+
+#: inc/demos.php:15
+msgid ""
+"Elementor is not installed or activated on your site, you need to activate the "
+"Elementor plugin to insert the demos completely."
+msgstr ""
+"المنتور بر رو سایت شما نصب نیست و یا فعال نشده جهت درون ریزی دمو ها به صورت "
+"کامل نیاز است افزونه المنتور را فعال نمایید."
+
+#: inc/demos.php:35
+msgid "Bio Link "
+msgstr "بایو لینک "
+
+#: inc/demos.php:38
+msgid "demo"
+msgstr "دمو"
+
+#: inc/demos.php:40
+msgid "Import"
+msgstr "وارد کردن"
+
+#: inc/function.php:139
+msgid "bio link settings"
+msgstr "تنظیمات بایو لینک"
+
+#: inc/function.php:148
+msgid "top"
+msgstr "بالا"
+
+#: inc/function.php:163
+msgid "down"
+msgstr "پایین"
+
+#: inc/function.php:176
+msgid "border color"
+msgstr "رنگ حاشیه"
+
+#: inc/function.php:189
+msgid "background color"
+msgstr "رنگ پس زمینه"
+
+#: inc/function.php:200
+msgid "background image"
+msgstr "تصویر پس زمینه"
+
+#: inc/function.php:207 inc/function.php:239
+msgid "choose image"
+msgstr "انتخاب عکس"
+
+#: inc/function.php:221
+msgid "mobile background color"
+msgstr "رنگ پس زمینه موبایل"
+
+#: inc/function.php:232
+msgid "mobile background image"
+msgstr "تصویر پس زمینه موبایل"
+
+#: inc/settings.php:21
+msgid "settings saved successfully."
+msgstr "تنظیمات با موفقیت ذخیره شد."
+
+#: inc/settings.php:25
+msgid "Manage Fonts and Widgets"
+msgstr "مدیریت فونت و ابزارک ها"
+
+#: inc/settings.php:28
+msgid "Fonts"
+msgstr "فونت ها"
+
+#: inc/settings.php:29 inc/settings.php:45 inc/settings.php:103
+#: inc/settings.php:141
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: inc/settings.php:38
+msgid "nice and beautiful font "
+msgstr "فونت زیبا و چشم نواز "
+
+#: inc/settings.php:44
+msgid "Widgets"
+msgstr "ابزارها"
+
+#: inc/settings.php:70
+msgid "other settings"
+msgstr "تنظیمات دیگر"
+
+#: inc/settings.php:74
+msgid "optimze css load"
+msgstr "لود css به صورت بهینه"
+
+#: inc/settings.php:103 inc/settings.php:141
+msgid "Unselect All"
+msgstr "لغو انتخاب همه"
+
+#: inc/vcf_generator_fun.php:28 inc/vcf_generator_fun.php:29
+msgid "last name"
+msgstr "نام خانوادگی"
+
+#: inc/vcf_generator_fun.php:32 inc/vcf_generator_fun.php:33
+msgid "phone number"
+msgstr "شماره تماس"
+
+#: inc/vcf_generator_fun.php:40 inc/vcf_generator_fun.php:41
+msgid "website"
+msgstr "وب سایت"
+
+#: inc/vcf_generator_fun.php:49
+msgid "create contact file"
+msgstr "ایجاد فایل مخاطب"
+
+#. Plugin Name of the plugin/theme
+#. Template Name of the plugin/theme
+msgid "بایو لینک"
+msgstr "بایو لینک"
+
+#. Plugin URI of the plugin/theme
+msgid "https://bio-plugin.armanhub.ir/"
+msgstr "https://bio-plugin.armanhub.ir/"
+
+#. Description of the plugin/theme
+msgid ""
+"افزونه بایو لینک آسان ترین راه برای خلق یک لینک بایو حرفه ای و جذاب برای شبکه "
+"های اجتمائی شما"
+msgstr "افزونه بایو لینک اسان ترین روش برای طراحی لینک بایو"
+
+#. Author of the plugin/theme
+msgid "علی آرمان"
+msgstr "علی آرمان"
+
+#. Author URI of the plugin/theme
+msgid "https://armanhub.ir/"
+msgstr "https://armanhub.ir/"
+
+#~ msgid ""
+#~ "Bio link plugin is the easiest way to create a professional and attractive "
+#~ "bio link for your social networks"
+#~ msgstr ""
+#~ "افزونه بایو لینک آسان ترین راه برای خلق یک لینک بایو حرفه ای و جذاب برای "
+#~ "شبکه های اجتمائی شما"
