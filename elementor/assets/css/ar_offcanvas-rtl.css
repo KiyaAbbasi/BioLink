@@ -1,0 +1,15 @@
+.offcanvas-opener {
+    text-align: right;
+}
+
+.offcanvas-opener .hamburger span:before, .offcanvas-opener .hamburger span:after{
+    transform: translateX(200%);
+}
+
+.offcanvas-opener .hamburger span:after{
+    transform: translateX(0);
+}
+
+.offcanvas-opener:hover .hamburger span:after{
+    transform: translateX(-200%);
+}

@@ -1,0 +1,19 @@
+.theme-advanced-heading-tag {
+    justify-content: right;
+}
+
+.theme-advanced-heading-wrap:before {
+    right: 0;
+    left: auto;
+}
+
+.theme-advanced-heading-border:after {
+    right: 0;
+    left: auto;
+}
+
+.theme-advanced-heading-widget.theme-layout-inline .theme-advanced-heading-one,
+.theme-advanced-heading-widget.theme-layout-inline .theme-advanced-heading-two {
+    margin-right: 0;
+    margin-left: 5px;
+}

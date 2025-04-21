@@ -1,0 +1,80 @@
+.preview {
+    position: relative
+}
+
+.social-swiper .image {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    transition: transform .3s ease-in-out
+}
+
+.social-swiper .row-swiper {
+    margin-bottom: 10px
+}
+
+.social-swiper .swiper-slide {
+    width: auto !important;
+}
+
+.social-swiper .preview-next-btn,
+.social-swiper .preview-prev-btn {
+    background-image: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 30%
+}
+
+.social-swiper .navigition{
+    background: none;
+}
+.social-swiper .navigition:after{
+    content: none;
+}
+
+.social-swiper .preview .cart {
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px
+}
+
+.social-swiper .preview .cart .image-container {
+    position: relative;
+    width: max-content
+}
+
+.social-swiper .preview .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .3s ease-in-out
+}
+
+.social-swiper .preview .title {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-swiper .preview .cart:hover .image {
+    transform: scale(1.1)
+}
+
+.social-swiper .preview .cart:hover .overlay {
+    opacity: 1
+}
+
+@media (max-width:500px) {
+    .social-swiper .image {
+        height: 200px
+    }
+}

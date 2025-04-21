@@ -1,0 +1,10 @@
+.searchwp-live-search-result img{
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.searchwp-live-search-result p a{
+    color: #232332;
+    font-size: 16px;
+}

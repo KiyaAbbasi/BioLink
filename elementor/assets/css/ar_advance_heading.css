@@ -1,0 +1,110 @@
+.theme-advanced-heading-tag,
+.theme-advanced-heading-wrap {
+    display: flex;
+    position: relative;
+}
+
+.theme-advanced-heading-tag {
+    margin: 0;
+    justify-content: left;
+}
+
+.theme-advanced-heading-wrap {
+    z-index: 2;
+    flex-direction: row
+}
+
+.theme-advanced-heading-wrap:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 0;
+    color: rgba(0, 0, 0, .09);
+    content: attr(data-background-text);
+    font-size: 60px;
+    line-height: 1;
+    transform: translateY(-50%)
+}
+
+.theme-advanced-heading-three,
+.theme-advanced-heading-one,
+.theme-advanced-heading-two {
+    z-index: 2;
+    position: relative;
+    color: var(--theme-secondary-color);
+}
+
+.theme-advanced-heading-two {
+    color: var(--theme-primary-color);
+}
+
+.theme-advanced-heading-border {
+    display: block
+}
+
+.theme-advanced-heading-border:after {
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    content: "";
+    width: 150px;
+    display: block;
+    position: absolute;
+    border-color: var(--theme-primary-color);
+}
+
+.theme-advanced-heading-widget.theme-layout-block.theme-align-left .theme-advanced-heading-wrap {
+    text-align: left
+}
+
+.theme-advanced-heading-widget.theme-layout-block.theme-align-center .theme-advanced-heading-wrap {
+    text-align: center
+}
+
+.theme-advanced-heading-widget.theme-layout-block.theme-align-right .theme-advanced-heading-wrap {
+    text-align: right
+}
+
+.theme-advanced-heading-widget.theme-layout-inline .theme-advanced-heading-one,
+.theme-advanced-heading-widget.theme-layout-inline .theme-advanced-heading-two {
+    margin-right: 5px
+}
+
+.theme-advanced-heading-widget.theme-layout-block .theme-advanced-heading-one,
+.theme-advanced-heading-widget.theme-layout-block .theme-advanced-heading-two {
+    margin-bottom: 5px
+}
+
+.theme-advanced-heading-widget.theme-align-left .theme-advanced-heading-border:after {
+    left: 0
+}
+
+.theme-advanced-heading-widget.theme-align-center .theme-advanced-heading-border:after {
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.theme-advanced-heading-widget.theme-align-right .theme-advanced-heading-border:after {
+    right: 0;
+    left: auto
+}
+
+.theme-advanced-heading-widget.theme-align-center .theme-advanced-heading-wrap:before {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.theme-advanced-heading-widget.theme-align-right .theme-advanced-heading-wrap:before {
+    right: 0;
+    left: auto
+}
+
+.theme-advanced-heading-link {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

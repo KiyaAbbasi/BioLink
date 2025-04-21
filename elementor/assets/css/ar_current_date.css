@@ -1,0 +1,20 @@
+.current-date {
+    align-items: center;
+    display: inline-flex;
+}
+
+.current-date .icon {
+    line-height: 1;
+}
+
+.current-date .icon i {
+    display: block;
+    vertical-align: middle;
+}
+
+.current-date .icon svg {
+    width: 1em;
+    height: 1em;
+    display: block;
+    fill: currentColor;
+}

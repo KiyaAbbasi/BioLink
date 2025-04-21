@@ -1,0 +1,119 @@
+.bio_advanced_heading:before {
+    content: url('../../img/bio_advanced_heading.png');
+}
+
+.bio_ajax_search:before{
+    content: url('../../img/bio_ajax_search.png');
+}
+
+.bio_back_page:before {
+    content: url('../../img/bio_back_page.png');
+}
+
+.bio_category_list:before {
+    content: url('../../img/bio_category_list.png');
+}
+
+.bio_competitors:before {
+    content: url('../../img/bio_competitors.png');
+}
+
+.bio_copy_link:before {
+    content: url('../../img/bio_copy_link.png');
+}
+
+.bio_creative_link:before {
+    content: url('../../img/bio_creative_link.png');
+}
+
+.bio_current_date:before {
+    content: url('../../img/bio_current_date.png');
+}
+
+.bio_faqs:before {
+    content: url('../../img/bio_faqs.png');
+}
+
+.bio_image_tab:before {
+    content: url('../../img/bio_image_tab.png');
+}
+
+.bio_plans:before {
+    content: url('../../img/bio_plans.png');
+}
+
+.bio_promo_box:before {
+    content: url('../../img/bio_promo_box.png');
+}
+
+.bio_search:before {
+    content: url('../../img/bio_search.png');
+}
+
+.bio_share:before {
+    content: url('../../img/bio_share.png');
+}
+
+.bio_tag_cloud:before {
+    content: url('../../img/bio_tag_cloud.png');
+}
+
+.bio_video_gallery:before {
+    content: url('../../img/bio_video_gallery.png');
+}
+
+.bio_video:before {
+    content: url('../../img/bio_video.png');
+}
+
+.timer_bio:before {
+    content: url('../../img/timer_bio.png');
+}
+
+.contact_bio:before {
+    content: url('../../img/contact_bio.png');
+}
+
+.map_bio:before {
+    content: url('../../img/map_bio.png');
+}
+
+.name_bio_2:before {
+    content: url('../../img/name_bio_2.png');
+}
+
+.name_bio:before {
+    content: url('../../img/name_bio.png');
+}
+
+.order_bio:before {
+    content: url('../../img/order_bio.png');
+}
+
+.save_vcf_bio:before {
+    content: url('../../img/save_vcf_bio.png');
+}
+
+.socials_bio_2:before {
+    content: url('../../img/socials_bio_2.png');
+}
+
+.socials_bio_3:before {
+    content: url('../../img/socials_bio_3.png');
+}
+
+.socials_bio:before {
+    content: url('../../img/socials_bio.png');
+}
+
+.testimonials_bio_2:before {
+    content: url('../../img/testimonials_bio_2.png');
+}
+
+.testimonials_bio:before {
+    content: url('../../img/testimonials_bio.png');
+}
+
+.works_bio:before {
+    content: url('../../img/works_bio.png');
+}

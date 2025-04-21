@@ -1,0 +1,112 @@
+.faq-bio {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-bio .faq-bio-body{
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid var(--Secondary-Secondary-200, #B6CFEA);
+    position: relative;
+    padding: 10px 40px 0px 10px;
+}
+
+.faq-bio .question {
+    margin: 0;
+    display: block;
+    color: var(--Secondary-Secondary-500, #334E6C);
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.45px;
+    text-transform: capitalize;
+    z-index: 10;
+    position: relative;
+}
+
+.faq-bio .answers {
+    padding: 0px 15px;
+    margin: 5px 5px 5px 5px;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    color: var(--Secondary-Secondary-500, #334E6C);
+    border-radius: 15px;
+    text-align: justify;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    text-transform: capitalize;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    opacity: 0;
+    transition: .3s ease;
+    z-index: 1;
+    display: none;
+}
+
+.faq-bio .questions:checked ~ .answers {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.faq-bio .questions {
+    display: none;
+}
+.faq-bio .faq-bio-minus{
+    display: none;
+}
+.faq-bio .faq-bio-minus ,
+.faq-bio .faq-bio-plus {
+    z-index: 5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.faq-bio .questions:checked ~ label .faq-bio-plus{
+    transition: -webkit-transform .8s;
+    transition: transform .8s;
+    transition: transform .8s, -webkit-transform .8s;
+    -webkit-transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55);
+    display: none;
+}
+
+.faq-bio .questions:checked ~ label .faq-bio-minus{
+    transition: -webkit-transform .8s;
+    transition: transform .8s;
+    transition: transform .8s, -webkit-transform .8s;
+    -webkit-transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .faq-bio .answers{
+        margin: 0px;
+    }
+
+    .faq-bio .faq-bio-body{
+        padding: 10px;
+    }
+    
+    .faq-bio .questions:checked ~ .answers{
+        margin-bottom: 0px;
+    }
+
+}

@@ -1,0 +1,44 @@
+.theme-tag-cloud {
+    display: flex;
+    --item-gap: 0;
+    flex-wrap: wrap;
+    margin-left: calc(var(--item-gap) * -.5);
+    margin-right: calc(var(--item-gap) * -.5);
+}
+
+.theme-tag-cloud-item-wrapper {
+    padding-left: calc(var(--item-gap) * .5);
+    padding-right: calc(var(--item-gap) * .5);
+    padding-bottom: calc(var(--item-gap) * .5);
+}
+
+.theme-tag-cloud-item {
+    padding: 10px;
+    display: flex;
+    border-radius: 4px;
+    position: relative;
+    background: #3a3c4c;
+    align-items: center;
+    transition: all .3s ease;
+}
+
+.theme-tag-cloud-name {
+    color: #fff;
+    flex-grow: 1;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.theme-tag-cloud-count {
+    color: #fff;
+    line-height: 1;
+    margin-left: 5px;
+    padding: 3px 5px;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    display: inline-flex;
+    transition: all .3s ease;
+    background: rgba(255, 255, 255, 0.3);
+}

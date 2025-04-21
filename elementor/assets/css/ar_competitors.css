@@ -1,0 +1,74 @@
+.competitors{
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+}
+.competitors table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.competitors td p{
+    color: var(--Secondary-Secondary-500, #334E6C);
+    text-align: right;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.68px;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px 20px;
+    white-space: nowrap;
+
+}
+
+.competitors thead th {
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.competitors tbody td {
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0px ;
+}
+
+.competitors tr:nth-child(odd) {
+    background-color: var(--Gray-Gray-100);
+}
+
+.competitors thead th{
+    padding: 8px;
+    background-color: var(--Gray-Gray-300);
+    color: white;
+}
+
+.competitors thead th:first-child {
+    background-color:var(--Primary-Primary-600);
+    color: white;
+}
+
+.competitors thead th.main-head {
+    background-color: var(--Tertiary-Tertiary-600);
+    color: white;
+}
+
+.competitors .fa-check {
+    color: var(--Tertiary-Tertiary-600);
+    font-size: 15px;
+}
+
+.competitors .fa-xmark {
+    color: var(--Primary-Primary-500);
+    font-size: 15px;
+}
