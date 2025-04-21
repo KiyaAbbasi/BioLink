@@ -1,0 +1,608 @@
+:root {
+    --icon-size: 19px;
+    --avatar-size: 120px;
+    --site-icon-size: 25px;
+    --avatar-margin-top: -35px;
+    --default-border-radius: 10px;
+    --avatar-background-size: 150px;
+    --name-color: #333;
+    --text-color: #333;
+    --section-color: #000;
+    --btn-color: #3200bb;
+    --body-text-color: #343a40;
+    --name-detail-color: #070606;
+    --border-color: rgb(255, 255, 255);
+    --box-shadow: rgb(199 199 199);
+    --contact-us-color: rgb(255, 255, 255);
+    --background-color: rgba(255, 255, 255, .9);
+    --btn-background-color: rgba(255, 255, 255, 1);
+    --contact-us-background-color: linear-gradient(45deg, slateblue, coral) border-box
+}
+
+html {
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0;
+    text-align: left;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    text-align: right
+}
+
+body::-webkit-scrollbar {
+    display: none
+}
+
+[type=button] {
+    cursor: pointer
+}
+
+.element_content {
+    padding: 0 !important;
+    overflow: hidden;
+    min-height: 760px;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    border: 10px solid var(--border-color);
+    box-shadow: inset 0 0 10px var(--box-shadow);
+    position: relative;
+}
+
+.main-layout {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.notch {
+    left: 50%;
+    z-index: 2;
+    width: 220px;
+    height: 45px;
+    position: absolute;
+    transform: translate(-50%, 0);
+    background: var(--border-color);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    -o-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0)
+}
+
+.notch:before {
+    left: 50%;
+    top: 20px;
+    content: "";
+    height: 6px;
+    width: 80px;
+    position: absolute;
+    margin-left: -50px;
+    border-radius: 6px;
+    background: #4d4d4d;
+    transform: translate(25px, 0);
+    -o-transform: translate(25px, 0);
+    -webkit-transform: translate(25px, 0)
+}
+
+.notch:after {
+    left: 50%;
+    top: 17px;
+    content: "";
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    border-radius: 100%;
+    background: #7d7d7d;
+    transform: translate(-50px, 0);
+    -o-transform: translate(-50px, 0);
+    -webkit-transform: translate(-50px, 0)
+}
+
+.notch-mini {
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    transform: translate(-50%, 0);
+    background: var(--border-color);
+    border-radius: 16px;
+    -o-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0)
+}
+
+.notch-mini:before {
+    left: 30%;
+    top: 17px;
+    content: "";
+    height: 6px;
+    width: 80px;
+    position: absolute;
+    margin-left: -50px;
+    border-radius: 6px;
+    background: #4d4d4d;
+    transform: translate(25px, 0);
+    -o-transform: translate(25px, 0);
+    -webkit-transform: translate(25px, 0)
+}
+
+.notch-mini:after {
+    left: 100%;
+    top: 13px;
+    content: "";
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    border-radius: 100%;
+    background: #7d7d7d;
+    transform: translate(-50px, 0);
+    -o-transform: translate(-50px, 0);
+    -webkit-transform: translate(-50px, 0)
+}
+
+.notch-samsung {
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background: var(--border-color)
+}
+
+
+.notch-samsung:after {
+    left: 90%;
+    top: 17px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 100%;
+    background: #7d7d7d;
+    transform: translate(-50px, 0);
+    -o-transform: translate(-50px, 0);
+    -webkit-transform: translate(-50px, 0)
+}
+
+.notch-samsung:before {
+    left: 50%;
+    top: 25px;
+    content: "";
+    height: 6px;
+    width: 125px;
+    position: absolute;
+    margin-left: -80px;
+    border-radius: 6px;
+    background: #4d4d4d;
+    transform: translate(25px, 0);
+    -o-transform: translate(25px, 0);
+    -webkit-transform: translate(25px, 0)
+}
+
+.notch-iphone7 {
+    top: 0;
+    left: 50%;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    transform: translate(-50%, 0);
+    background: var(--border-color);
+    -o-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0)
+}
+
+.notch-iphone7:after {
+    left: 45%;
+    top: 18px;
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    border-radius: 100%;
+    background: #7d7d7d;
+    transform: translate(-50px, 0);
+    -o-transform: translate(-50px, 0);
+    -webkit-transform: translate(-50px, 0)
+}
+
+.notch-iphone7:before {
+    left: 50%;
+    top: 25px;
+    content: "";
+    height: 6px;
+    width: 80px;
+    position: absolute;
+    margin-left: -65px;
+    border-radius: 6px;
+    background: #4d4d4d;
+    transform: translate(25px, 0);
+    -o-transform: translate(25px, 0);
+    -webkit-transform: translate(25px, 0)
+}
+
+.device {
+    margin-bottom: -100px !important
+}
+
+.avatar-background {
+    width: 111%;
+    margin-bottom: 0;
+    object-fit: cover;
+    margin-right: -15px;
+    -o-object-fit: cover;
+    object-position: center center;
+    -o-object-position: center center;
+    height: var(--avatar-background-size)
+}
+
+.avatar-img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border: 1px solid var(--background-color)
+}
+
+.name {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center
+}
+
+h2 {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500
+}
+
+h4 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400
+}
+
+h5,
+h6 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300
+}
+
+.name-detail {
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center
+}
+
+.social-row {
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.social-media .col {
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 50% !important
+}
+
+.social-media a {
+    color: #fff;
+    padding: 10px;
+    direction: rtl;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    border-radius: var(--default-border-radius);
+    box-sizing: content-box
+}
+
+.col.web a {
+    color: var(--btn-color);
+    border: 1px solid transparent;
+    border-radius: var(--default-border-radius);
+    background: linear-gradient(var(--btn-background-color), var(--btn-background-color)) padding-box, linear-gradient(45deg, slateblue, coral) border-box
+}
+
+.messenger {
+    min-width: 100%
+}
+
+.contacts a {
+    display: block;
+    direction: ltr;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 8px;
+    position: relative;
+    white-space: nowrap;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    padding: 10px 40px 10px 18px;
+    border: 1px solid transparent;
+    color: var(--contact-us-color);
+    border-radius: var(--default-border-radius);
+    background: var(--contact-us-background-color)
+}
+
+.title-section {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--section-color)
+}
+
+.site-icon {
+    border-radius: 100%;
+    width: var(--site-icon-size);
+    height: var(--site-icon-size)
+}
+
+.icon {
+    font-size: var(--icon-size);
+    width: var(--icon-size);
+    height: var(--icon-size)
+}
+
+.socials a {
+    height: auto
+}
+
+.whatsapp a {
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #25d366;
+    border-radius: var(--default-border-radius)
+}
+
+.instagram a {
+    border: 0;
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #f09433;
+    background: linear-gradient(45deg, #f09433 0, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -o-linear-gradient(45deg, #f09433 0, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border-radius: var(--default-border-radius)
+}
+
+.pinterest a {
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #bd081c
+}
+
+.telegram a {
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #1c88d4
+}
+
+.tiktok a {
+    padding: 10px;
+    direction: rtl;
+    background: #000;
+    text-align: center
+}
+
+.x a {
+    padding: 10px;
+    direction: rtl;
+    background: #000;
+    text-align: center
+}
+
+.itunes a {
+    direction: rtl;
+    padding: 10px;
+    text-align: center;
+    background: #d754ad;
+    background: linear-gradient(-30deg, #d754ad 0, #d754ad 10%, #f96785 62%, #fe7333 100%);
+    background: -o-linear-gradient(120deg, #d754ad 0, #d754ad 10%, #f96785 62%, #fe7333 100%);
+    background: -webkit-linear-gradient(120deg, #d754ad 0, #d754ad 10%, #f96785 62%, #fe7333 100%)
+}
+
+.spotify a {
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #1db954
+}
+
+.sorush a {
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #1E6881
+}
+
+.bale a {
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #42A59D
+}
+
+.eitaa a {
+    padding: 10px;
+    direction: rtl;
+    text-align: center;
+    background: #c96309
+}
+
+.faq-item {
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--background-color);
+    box-shadow: 0 0 10px var(--box-shadow)
+}
+
+.faq-item label {
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--body-text-color)
+}
+
+.faq-item input[type="checkbox"] {
+    display: none
+}
+
+.faq-item input[type="checkbox"] + label::before {
+    font-size: 20px;
+    content: '\2b';
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: transform .5s ease-in-out
+}
+
+.faq-item input[type="checkbox"]:checked + label::before {
+    content: '\2212'
+}
+
+.faq-item p {
+    margin: 0;
+    display: none;
+    font-size: 16px;
+    padding-right: 20px;
+    color: var(--btn-color);
+    animation: slide-down .5s ease forwards
+}
+
+.faq-item input[type="checkbox"]:checked + label + p {
+    display: block
+}
+
+@keyframes slide-down {
+    from {
+        max-height: 0;
+        opacity: 0
+    }
+
+    to {
+        max-height: 100px;
+        opacity: 1
+    }
+}
+
+.image {
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px
+}
+
+.map {
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 5px
+}
+
+.big-map {
+    border-radius: 20px;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 5px
+}
+
+.bottom-iphone {
+    height: 80px;
+    background-color: var(--border-color);
+    box-shadow: 0 0 10px var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+div.bottom-iphone div {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 4px solid #7d7d7d;
+    box-shadow: 0 0 10px var(--box-shadow)
+}
+
+.bottom-samsung {
+    height: 70px;
+    background-color: var(--border-color);
+    margin-left: -15px;
+    margin-right: -15px;
+    box-shadow: 0 0 10px var(--box-shadow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.samsung-icon {
+    font-size: 28px !important;
+    color: #7d7d7d
+}
+
+.samsung-home {
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+    border: 4px solid #7d7d7d;
+    box-shadow: inset 0 0 5px var(--box-shadow)
+}
+
+.bottom-xiaomy {
+    opacity: .5;
+    height: 50px;
+    background-color: var(--border-color);
+    margin-left: -15px;
+    margin-right: -15px;
+    box-shadow: 0 0 10px var(--box-shadow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.xiaomy-icon {
+    font-size: 20px !important;
+    color: gray
+}
