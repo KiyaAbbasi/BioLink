@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Samim';
+    font-display: swap;
+    src: url('Samim-FD.woff2') format("woff2");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'Samim';
+    font-display: swap;
+    src: url('Samim-Medium-FD.woff2') format("woff2");
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'Samim';
+    font-display: swap;
+    src: url('Samim-Bold-FD.woff2') format("woff2");
+    font-weight: Bold
+}
+
+.font-Samim {
+    font-family: 'Samim' !important;
+}
